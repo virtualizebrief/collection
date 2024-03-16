@@ -1,2 +1,2 @@
-## Get the wiki details
-[Citrix Virtual Apps & Desktops tools](../../wiki/)
+# Citrix Virtual App & Desktop tools
+More info to come...

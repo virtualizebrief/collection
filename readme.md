@@ -1,5 +1,5 @@
-|:newspaper: [Github wiki](https://github.com/virtualizebrief/home/wiki)|:convenience_store: [Wood cloud](https://marketplace.woodcloud.one/)|:convenience_store: [VB blog](https://virtualizebrief.woodcloud.one/)|![](https://i.stack.imgur.com/gVE0j.png) [LinkedIn](https://www.linkedin.com/in/michaelcharleswood/)|
-|---|---|---|---|
+|:newspaper: [Github wiki](https://github.com/virtualizebrief/home/wiki)|:convenience_store: [Wood cloud](https://marketplace.woodcloud.one/)|:convenience_store: [VB blog](https://virtualizebrief.woodcloud.one/)|![](https://i.stack.imgur.com/gVE0j.png) [LinkedIn](https://www.linkedin.com/in/michaelcharleswood/)|:information_source: [About](https://github.com/virtualizebrief)|
+|---|---|---|---|---|
 
 ## Welcome to the Virtualize Brief collection
 

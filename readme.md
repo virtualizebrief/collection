@@ -1,4 +1,4 @@
-# Welcome to the Virtualize Breif collection
+# Welcome to the Virtualize Brief collection
 
 ## Citrix Virtual App & Desktop tools
 (visit repository)[cvadtools]

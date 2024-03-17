@@ -4,7 +4,7 @@
 ## Welcome to the Virtualize Brief collection
 Choose a topic to find out more and dive into the code.
 
-- [**Citrix Virtual App & Desktop tools**](cvadtools) <br>
+- [**Citrix Virtual Apps & Desktops**](cvadtools) <br>
 Collection of powershell scripts for unlocking the features of a Citrix site. Works for both on-prem and cloud platforms.
 
 - [**Real print**](realprint) <br>

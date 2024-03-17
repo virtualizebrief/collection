@@ -1,6 +1,7 @@
 # Igel
 |[Igel company info](https://igel.com)|
 ---|
+
 Thin client management platform.
 
 - [os11-theme-icecream.xml](os11-theme-icecream.xml)

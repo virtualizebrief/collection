@@ -18,7 +18,7 @@ some information about this file
 - [set-hidelogoffdisconnect-user-session.ps1]() <br>
 some information about this file
 
-`sitemigration` <br>
-### Citrix site migration tools
+- `sitemigration` <br>
+### Citrix site migration tools <br>
 Specific to things for a site migration or quick changes across delivery groups and apps. <br>
 [Take me to repository](sitemigration)

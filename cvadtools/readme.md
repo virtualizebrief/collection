@@ -1,5 +1,5 @@
 # Citrix Virtual App & Desktop tools
-:star: The general collection. Where common admin fucntions can be found.
+:star: General collection. Where common admin fucntions can be found.
 - [get-appnotrunning-prompttologoff.ps1](get-appnotrunning-prompttologoff.ps1) <br>
 some information about this file
  

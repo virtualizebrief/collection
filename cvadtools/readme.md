@@ -13,5 +13,5 @@ General collection. Where common admin functions can be found for managing a Cit
 # More detailed topics
 ### Citrix site migration tools <br>
 `sitemigration` <br>
-On site migration or quick changes across delivery groups and apps. <br>
 [Take me to repository](sitemigration)
+On site migration or quick changes across delivery groups and apps. <br>

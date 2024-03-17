@@ -20,9 +20,4 @@ some information about this file
 
 ### Citrix site migration tools
 :information_source: Specific to things for a site migration or quick changes across delivery groups and apps.
-
-- [file]() <br>
-some information about this file
- 
-- [file]() <br>
-some information about this file
+[Take me to repository](sitemigration)

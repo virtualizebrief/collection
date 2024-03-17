@@ -2,7 +2,7 @@
 General collection. Where common admin functions can be found for managing a Citrix site. Scroll down to find out more about specific topics.
 
 | Command | Description |
-| --- | --- |
+| :--- | :--- |
 | `get-appnotrunning-prompttologoff.ps1` | some information about this file |
 | `` | some information about this file |
 | `` | some information about this file |

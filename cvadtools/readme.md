@@ -18,7 +18,7 @@ some information about this file
 some information about this file
 
 ### Citrix site migration tools
-> [!NOTE]
+> [NOTE]
 > Specific to things for a site migration or quick changes across delivery groups and apps.
 
 > Note: In the web-based editor, you can indent or dedent one or more lines of text by first highlighting the desired lines and then using Tab or Shift+Tab respectively.

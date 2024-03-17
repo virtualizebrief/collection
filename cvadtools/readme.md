@@ -2,34 +2,25 @@
 - [get-appnotrunning-prompttologoff.ps1](get-appnotrunning-prompttologoff.ps1) <br>
 some information about this file
  
-- [**get-concurrentuser-licensecount.ps1**](get-concurrentuser-licensecount.ps1) <br>
+- [get-concurrentuser-licensecount.ps1](get-concurrentuser-licensecount.ps1) <br>
 some information about this file
 
-- **remove-dg-machines-withfaultstate.ps1** <br>
+- [remove-dg-machines-withfaultstate.ps1]() <br>
 some information about this file
   
-- **set-add-websitelink.ps1** <br>
+- [set-add-websitelink.ps1]() <br>
 some information about this file
 
-- **set-app-disablelocallaunch.ps1** <br>
+- [set-app-disablelocallaunch.ps1]() <br>
 some information about this file
 
-- **set-hidelogoffdisconnect-user-session.ps1** <br>
+- [set-hidelogoffdisconnect-user-session.ps1]() <br>
 some information about this file
 
 ### Citrix site migration tools
 `Specific to things for a site migration or quick changes across delivery groups and apps.`
-- **file** <br>
+- [file]() <br>
 some information about this file
  
-- **file** <br>
-some information about this file
-
-- **file** <br>
-some information about this file
-
-- **file** <br>
-some information about this file
-
-- **file** <br>
+- [file]() <br>
 some information about this file

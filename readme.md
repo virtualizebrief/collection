@@ -3,11 +3,11 @@
 
 ## Welcome to the Virtualize Brief collection
 
-[**Citrix Virtual App & Desktop tools**](cvadtools) <br>
+- [**Citrix Virtual App & Desktop tools**](cvadtools) <br>
 Collection of powershell scripts for unlocking the features of a Citrix site. Works for both on-prem and cloud platforms.
 
-[**Real print**](realprint) <br>
+- [**Real print**](realprint) <br>
 Enterprise print solution taylor for Citrix though would do well in many deployments.
 
-[**Storefront**](storefront) <br>
+- [**Storefront**](storefront) <br>
 Selection of custom themes and the end user session manager application and website.

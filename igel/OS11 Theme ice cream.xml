@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<profiles>
+    <profile>
+        <profile_id>3941</profile_id>
+        <profilename>OS11 Taskbar minimal</profilename>
+        <firmware>
+            <model>IGEL OS 11</model>
+            <version>11.08.440.01</version>
+        </firmware>
+        <description></description>
+        <overwritesessions>false</overwritesessions>
+        <is_master_profile>false</is_master_profile>
+        <is_igel_os>true</is_igel_os>
+        <settings>
+            <pclass name="userinterface.ui_theme.colors.base">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">#ededed</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.startmenu.enable_restart">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.startmenu.enable_system_tab">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.defaulttheme.wallpaper_style">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">1</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.startbuttonicon">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">/wfs/background.png</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.startmenu.enable_display_lock">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.taskbarxineramamonitor">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">monitor-0</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="userinterface.ui_theme.colors.icons_and_fonts">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">IGEL-Light</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.setup%.quick_start">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.startmenutype">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">advanced</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.defaulttheme.desktopcolor">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">#385a8f</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.launcher%.quick_start">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.defaulttheme.desktop_iconfont_color">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">#cccccc</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.startmenu.enable_about_button">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.startmenu.enable_logout">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="userinterface.ui_theme.gtk_theme">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">Custom</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.defaulttheme.startmenulogoimage">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">/wfs/background.png</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.ontoptaskbar">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.commands%.startmenu">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.launcher%.pulldown">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="userinterface.ui_theme.colors.highlight">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">#d46d6a</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="auth.login.show_username">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.defaulttheme.desktopcolor_alt">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">#385a8f</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.usetaskbar">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.setup%.applaunch_system">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.startmenu.enable_shutdown">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.launcher%.startmenu">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.taskbargradient.color_dark">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">#adadad</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="userinterface.igel_toolbar.enable">
+                <pvalue instancenr="-1" variableExpression="" variableSubstitutionActive="false">true</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.setup%.pulldown">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="sessions.setup%.startmenu_system">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+            <pclass name="windowmanager.wm%.variables.xineramaexpandtaskbar">
+                <pvalue instancenr="0" variableExpression="" variableSubstitutionActive="false">false</pvalue>
+                <variableSubstitutionActive>false</variableSubstitutionActive>
+            </pclass>
+        </settings>
+        <instancesettings/>
+    </profile>
+</profiles>

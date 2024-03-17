@@ -1,2 +1,2 @@
 # Igel
-Thin client management platform. Learn more about the company [here](https://igel.com).
+Thin client management platform. Learn more about the company here: https://igel.com.

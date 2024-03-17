@@ -3,8 +3,8 @@ General collection. Where common admin functions can be found for managing a Cit
 
 | Command | Description |
 | :--- | :--- |
-| [get-appnotrunning-prompttologoff.ps1](get-appnotrunning-prompttologoff.ps1) | some information about this file |
-| [get-concurrentuser-licensecount.ps1](get-concurrentuser-licensecount.ps1) | some information about this file |
+| [get-appnotrunning-prompttologoff.ps1]() | some information about this file |
+| [get-concurrentuser-licensecount.ps1]() | some information about this file |
 | [remove-dg-machines-withfaultstate.ps1]() | some information about this file |
 | [set-add-websitelink.ps1]() | some information about this file |
 | [set-app-disablelocallaunch.ps1]() | some information about this file |

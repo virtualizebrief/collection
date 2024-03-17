@@ -1,4 +1,5 @@
 # Citrix Virtual App & Desktop tools
+:star: The general collection
 - [get-appnotrunning-prompttologoff.ps1](get-appnotrunning-prompttologoff.ps1) <br>
 some information about this file
  

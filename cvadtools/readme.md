@@ -1,8 +1,8 @@
 # Citrix Virtual App & Desktop tools
-- [**get-appnotrunning-prompttologoff.ps1**](get-appnotrunning-prompttologoff.ps1) <br>
+- [get-appnotrunning-prompttologoff.ps1](get-appnotrunning-prompttologoff.ps1) <br>
 some information about this file
  
-- **get-concurrentuser-licensecount.ps1** <br>
+- [**get-concurrentuser-licensecount.ps1**](get-concurrentuser-licensecount.ps1) <br>
 some information about this file
 
 - **remove-dg-machines-withfaultstate.ps1** <br>

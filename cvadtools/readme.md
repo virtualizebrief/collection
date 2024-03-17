@@ -12,7 +12,12 @@ Common admin functions managing a Citrix site. Click on any command to see a mor
 | [set-hidelogoffdisconnect-user-session.ps1]() | some information about this file |
 
 ## Specific collections
-### Citrix site migration tools <br>
+### Site migration tools <br>
 - `sitemigration` <br>
 [Take me to repository](sitemigration) <br>
 For a site migration or quick changes across delivery groups and apps.
+
+### Deploy Remote PC tools <br>
+- `remotepc` <br>
+[Take me to repository](remotepc) <br>
+Simple how service desk and desktop support deploy Remote PC for Citrix.

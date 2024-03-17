@@ -12,10 +12,10 @@ Collection of powershell scripts for unlocking the features of a Citrix site. Wo
 [**Igel profiles**](igel) <br>
 Profiles for configuring Igel devices. From themes to idle reboot schedules and more.
 
-- [**Real print**](realprint) <br>
-`realprint` <br>
+- `realprint` <br>
+[**Real print**](realprint) <br>
 Enterprise print solution taylor for Citrix though would do well in many deployments.
 
-- [**Storefront**](storefront) <br>
-`storefront` <br>
+- `storefront` <br>
+[**Storefront**](storefront) <br>
 Selection of custom themes and the end user session manager application and website.

@@ -18,4 +18,4 @@ Enterprise print solution taylor for Citrix though would do well in many deploym
 
 - `storefront` <br>
 [**Storefront**](storefront) <br>
-Selection of custom themes and the end user session manager application and website.
+Selection of custom themes and session manager for end users.

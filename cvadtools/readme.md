@@ -11,7 +11,7 @@ Where common admin functions can be found for managing a Citrix site. Click on a
 | [set-app-disablelocallaunch.ps1]() | some information about this file |
 | [set-hidelogoffdisconnect-user-session.ps1]() | some information about this file |
 
-# More detailed topics
+# More specific collections
 ### Citrix site migration tools <br>
 `sitemigration` <br>
 [Take me to repository](sitemigration)

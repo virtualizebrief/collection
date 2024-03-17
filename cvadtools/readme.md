@@ -13,6 +13,6 @@ Common admin functions managing a Citrix site. Click on any command to see a mor
 
 ## Specific collections
 ### Citrix site migration tools <br>
-`sitemigration` <br>
-[Take me to repository](sitemigration)
-On site migration or quick changes across delivery groups and apps. <br>
+- `sitemigration` <br>
+[Take me to repository](sitemigration) <br>
+On site migration or quick changes across delivery groups and apps.

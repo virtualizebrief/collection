@@ -19,5 +19,5 @@ some information about this file
 some information about this file
 
 ### Citrix site migration tools
-:information_source: Specific to things for a site migration or quick changes across delivery groups and apps.
-[Take me to repository](sitemigration)
+Specific to things for a site migration or quick changes across delivery groups and apps.
+:arrow_right: [Take me to repository](sitemigration)

@@ -8,7 +8,7 @@ Choose a topic to find out more and dive into the code.
 `repository: cvadtools` <br>
 Collection of powershell scripts for unlocking the features of a Citrix site. Works for both on-prem and cloud platforms.
 
-- [**Igel thin client management**](igel) <br>
+- [**Igel profiles**](igel) <br>
 `repository: igel` <br>
 Profiles for configuring Igel devices. From themese to idle reboot schedules and more.
 

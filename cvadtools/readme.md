@@ -5,10 +5,10 @@ General collection. Where common admin functions can be found for managing a Cit
 | :--- | :--- |
 | [get-appnotrunning-prompttologoff.ps1](get-appnotrunning-prompttologoff.ps1) | some information about this file |
 | [get-concurrentuser-licensecount.ps1](get-concurrentuser-licensecount.ps1) | some information about this file |
-| remove-dg-machines-withfaultstate.ps1 | some information about this file |
-| set-add-websitelink.ps1 | some information about this file |
-| set-app-disablelocallaunch.ps1 | some information about this file |
-| set-hidelogoffdisconnect-user-session.ps1 | some information about this file |
+| [remove-dg-machines-withfaultstate.ps1]() | some information about this file |
+| [set-add-websitelink.ps1]() | some information about this file |
+| [set-app-disablelocallaunch.ps1]() | some information about this file |
+| [set-hidelogoffdisconnect-user-session.ps1]() | some information about this file |
 
 # More detailed topics
 ### Citrix site migration tools <br>

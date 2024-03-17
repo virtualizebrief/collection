@@ -2,7 +2,7 @@
 |:computer: [Igel company info](https://igel.com)|
 ---|
 
-## About profiles
+### About profiles
 An Igel profile is a predefined configuration that can be assigned to managed devices across the globe. Profiles can be used to:
 - Set the same configuration for multiple devices
 - Define different usage scenarios for devices or groups of devices

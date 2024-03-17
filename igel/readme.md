@@ -1,5 +1,5 @@
 # Igel
-|[Meet Igel(https://igel.com)|
+|[Meet Igel](https://igel.com)|
 ---|
 Thin client management platform.
 

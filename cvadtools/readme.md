@@ -18,7 +18,7 @@ some information about this file
 some information about this file
 
 ### Citrix site migration tools
-Note: Specific to things for a site migration or quick changes across delivery groups and apps.
+:information_source: Specific to things for a site migration or quick changes across delivery groups and apps.
 
 - [file]() <br>
 some information about this file

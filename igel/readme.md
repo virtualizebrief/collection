@@ -1,2 +1,2 @@
 # Igel
-Thin client management platform. Best of the best.
+Thin client management platform. Learn more about the company [here](https://igel.com).

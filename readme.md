@@ -10,7 +10,7 @@ Collection of powershell scripts for unlocking the features of a Citrix site. Wo
 
 - [**Igel profiles**](igel) <br>
 `repository: igel` <br>
-Profiles for configuring Igel devices. From themese to idle reboot schedules and more.
+Profiles for configuring Igel devices. From themes to idle reboot schedules and more.
 
 - [**Real print**](realprint) <br>
 `repository: realprint` <br>

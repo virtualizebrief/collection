@@ -1,5 +1,6 @@
 # Citrix Virtual Apps & Desktops
-General collection. Where common admin functions can be found for managing a Citrix site. Click on any common to see a more detailed write up at our github wiki page.
+### General collection <br>
+Where common admin functions can be found for managing a Citrix site. Click on any common to see a more detailed write up at our github wiki page.
 
 | Command | Description |
 | :--- | :--- |

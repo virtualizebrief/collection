@@ -1,5 +1,5 @@
 # Igel thin client management platform
-|:computer: [Igel company info](https://igel.com) :arrow_right:|
+|[Igel company info](https://igel.com) :arrow_upper_right:|
 ---|
 
 ### About profiles

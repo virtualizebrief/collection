@@ -1,6 +1,9 @@
 # Storefront
 ## General collection <br>
-Common features for Citrix Storefront. Click on a script to see a more detailed write up at our github wiki. For .js files you'll want to put the code in the default file: custom/script.js on your Storefront store.
+Common features for Citrix Storefront. Click on a script to see a more detailed write up at our github wiki.
+
+> [!NOTE]
+> For .js files you'll want to put the code in the default file: custom/script.js on your Storefront store.
 
 | Command | Description |
 | :--- | :--- |

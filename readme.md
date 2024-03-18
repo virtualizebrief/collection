@@ -5,17 +5,17 @@
 Choose a topic to find out more and dive into the code.
 
 - `cvadtools` <br>
-[**Citrix Virtual App & Desktop**](cvadtools) <br>
+[**Citrix Virtual App & Desktop**](cvadtools/readme.md) <br>
 Collection of powershell scripts for unlocking the features of a Citrix site. Works for both on-prem and cloud platforms.
 
 - `igel` <br>
-[**Igel profiles**](igel) <br>
+[**Igel profiles**](igel/readme.md) <br>
 Profiles for configuring Igel devices. From themes to idle reboot schedules and more.
 
 - `realprint` <br>
-[**Real print**](realprint) <br>
+[**Real print**](realprint/readme.md) <br>
 Enterprise print solution taylor for Citrix though would do well in many deployments.
 
 - `storefront` <br>
-[**Storefront**](storefront) <br>
+[**Storefront**](storefront/readme.md) <br>
 Selection of custom themes and session manager for end users.

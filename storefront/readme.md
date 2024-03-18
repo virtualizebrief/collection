@@ -9,10 +9,10 @@ Common features for Citrix Storefront. Click on a script to see a more detailed 
 ## Specific collections
 ### Session Manager <br>
 - `sessionmanager` <br>
-[Take me to repository](sitemigration) <br>
+[Take me to repository](sessionmanager) <br>
 Frontend for end users to manage their Citrix sessions from a website.
 
 ### Themes <br>
 - `theme` <br>
-[Take me to repository](remotepc) <br>
+[Take me to repository](theme) <br>
 Custom themes for Storefront. Lets make it pretty.

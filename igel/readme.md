@@ -9,6 +9,6 @@ An Igel profile is a predefined configuration that can be assigned to managed de
 - Reduce administrative outlay
 - Reduce configuration options on the device
 
-### Repository of Virtualize Brief custom Igel profiles
+### Igel profiles
 - [os11-theme-icecream.xml](os11-theme-icecream.xml) <br>
 Igel desktop theme. Light in colors using off white and blue with a hint of light red for good measure. Pairs with a background imaged named `background.png`. Use the one supplied here or create your own custom image.

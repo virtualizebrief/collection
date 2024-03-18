@@ -1,6 +1,7 @@
-# Igel thin client management platform
+# Igel
 |[Igel company info](https://igel.com) :arrow_upper_right:|
 ---|
+What is Igel? Thin client management platform.
 
 ### About profiles
 An Igel profile is a predefined configuration that can be assigned to managed devices across the globe. Profiles can be used to:

@@ -1,6 +1,7 @@
 # Igel
 |[Igel company info](https://igel.com) :arrow_upper_right:|
 ---|
+
 What is Igel? Thin client management platform.
 
 ### About profiles

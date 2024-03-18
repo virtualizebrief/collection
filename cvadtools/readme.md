@@ -1,5 +1,3 @@
-[![Downloads][downloads-image]][downloads-url]
-
 # Citrix Virtual Apps & Desktops
 ## General collection <br>
 Common admin functions managing a Citrix site. Click on any command to see a more detailed write up at our github wiki.
@@ -23,8 +21,3 @@ For a site migration or quick changes across delivery groups and apps.
 - `remotepc` <br>
 [Take me to repository](remotepc) <br>
 Simple how service desk and desktop support deploy Remote PC for Citrix.
-
-[npm-image]: https://img.shields.io/npm/v/github-wiki-sidebar.svg
-[npm-url]: https://npmjs.org/package/github-wiki-sidebar
-[downloads-image]: https://img.shields.io/npm/dm/github-wiki-sidebar.svg
-[downloads-url]: https://npmjs.org/package/github-wiki-sidebar

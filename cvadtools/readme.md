@@ -17,10 +17,10 @@ Common admin functions managing a Citrix site. Click on any command to see a mor
 ## Specific collections
 ### Site migration tools <br>
 - `sitemigration` <br>
-[Take me to repository](sitemigration) <br>
+[Take me to repository](sitemigration/readme.md) <br>
 For a site migration or quick changes across delivery groups and apps.
 
 ### Deploy Remote PC tools <br>
 - `remotepc` <br>
-[Take me to repository](remotepc) <br>
+[Take me to repository](remotepc/readme.md) <br>
 Simple how service desk and desktop support deploy Remote PC for Citrix.

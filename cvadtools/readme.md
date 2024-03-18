@@ -1,3 +1,5 @@
+[![Downloads][downloads-image]][downloads-url]
+
 # Citrix Virtual Apps & Desktops
 ## General collection <br>
 Common admin functions managing a Citrix site. Click on any command to see a more detailed write up at our github wiki.

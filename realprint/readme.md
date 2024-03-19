@@ -54,6 +54,6 @@ Manager provides a frontend for assigning printers to endpoints. Screen capture 
 
 ## [convertto-textasciiart.ps1](convertto-textasciiart.ps1)
 > [!TIP]
-This feature is option and can be disabled or not used.
+This feature is optional and can be disabled.
 
 Creates the cool banner logo for real print manager.

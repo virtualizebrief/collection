@@ -2,7 +2,7 @@
 |---|---|---|---|---|---|
 
 # Citrix Virtual App & Desktop / Site Migration
-Having used these to aid in a Citrix site migration from on-prem to cloud. Plus these are nice tools to have when performing bulk functions.
+Having used these in Citrix site migrations from on-prem to cloud or on-prem to on-prem. These are nice tools to have when performing bulk functions.
 
 | Command | Description |
 | :--- | :--- |

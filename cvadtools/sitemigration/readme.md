@@ -6,17 +6,17 @@ Having used these to aid in a Citrix site migration from on-prem to cloud. Plus 
 
 | Command | Description |
 | :--- | :--- |
-| [connect-citrixcloud.ps1](connect-citrixcloud.ps1) | ... |
-| [export-app-clientfolder.ps1](export-app-clientfolder.ps1) | ... |
-| [export-dg-applications-xml.ps1](export-dg-applications-xml.ps1) | ... |
-| [export-machinecatalogs-allmachines.ps1](export-machinecatalogs-allmachines.ps1) | ... |
-| [export-machinecatalogs-list.ps1](export-machinecatalogs-list.ps1) | ... |
-| [export-policies.ps1](export-policies.ps1) | ... |
-| [import-dg-applications-xml.ps1](import-dg-applications-xml.ps1) | ... |
-| [import-machinecatalog-machines.ps1](import-machinecatalog-machines.ps1) | ... |
-| [import-machinecatalogs.ps1](import-machinecatalogs.ps1) | ... |
-| [import-policies.ps1](import-policies.ps1) | ... |
-| [set-app-catagory-files.ps1](set-app-catagory-files.ps1) | ... |
+| [connect-citrixcloud.ps1](connect-citrixcloud.ps1) | connecting to citrix cloud |
+| [export-app-clientfolder.ps1](export-app-clientfolder.ps1) | export list of client folder for each app |
+| [export-dg-applications-xml.ps1](export-dg-applications-xml.ps1) | export list of all applications by delivery group |
+| [export-machinecatalogs-allmachines.ps1](export-machinecatalogs-allmachines.ps1) | export list of all machines by machine catalog |
+| [export-machinecatalogs-list.ps1](export-machinecatalogs-list.ps1) | export list of machine catalogs |
+| [export-policies.ps1](export-policies.ps1) | export citrix policies |
+| [import-dg-applications-xml.ps1](import-dg-applications-xml.ps1) | create applications for delivery group |
+| [import-machinecatalog-machines.ps1](import-machinecatalog-machines.ps1) | add machines to machine catalog |
+| [import-machinecatalogs.ps1](import-machinecatalogs.ps1) | create machine catalogs |
+| [import-policies.ps1](import-policies.ps1) | import citrix policies |
+| [set-app-catagory-files.ps1](set-app-catagory-files.ps1) |  |
 | [set-app-catagory.ps1](set-app-catagory.ps1) | ... |
 | [set-app-keywords.ps1](set-app-keywords.ps1) | ... |
 | [set-dg-allapps-disabled.ps1](set-dg-allapps-disabled.ps1) | ... |

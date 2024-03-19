@@ -12,7 +12,7 @@ Enterprise print solution taylored to Citrix Virtual App & Desktop deployments. 
 
 Endpoint agent for querying real print database and connecting printers. Call agent at user login and user reconnect in task scheduler running as current user. 
 
-Performs the following:
+### Performs the following
 - Connect to real print database by endpoint name
 - Get list of assigned printers and default
 - Attempt to connect to each printer

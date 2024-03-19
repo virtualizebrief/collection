@@ -23,7 +23,5 @@ Log file can be kept local to the machine and/or copied to a network location fo
 Manager provides a frontend for assigning printers to endpoints.
 
 ## [convertto-textasciiart.ps1](convertto-textasciiart.ps1)
-Creates the cool banner logo for real print manager.
-
-
-This feature is option and can be disabled or not used.
+Creates the cool banner logo for real print manager. This feature is option and can be disabled or not used.
+![image](https://github.com/virtualizebrief/collection/assets/153381859/d109f5bc-19ab-4e32-8fa4-527e5a27f3e2)

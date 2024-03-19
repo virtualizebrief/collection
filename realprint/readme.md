@@ -17,6 +17,32 @@ Performs the following:
 
 Log file can be kept local to the machine and/or copied to a network location for archiving or quick historical access.
 
+Example log file
+```
+20240319T115446 =========================================
+20240319T115446   Real Print
+20240319T115446   Release: 2024.03.19
+20240319T115446 =========================================
+20240319T115446   ...Running User Processes
+20240319T115446   ...User found: michaelwood
+20240319T115446   ...Endpoint: Office
+20240319T115446   ...Citrix Desktop: MyDesk
+20240319T115446
+20240319T115446   Printer processing...
+20240319T115446   -------------------------------
+20240319T115446   deleting: none
+20240319T115447   adding  : \\printserver1.mydomain.com\printer1
+20240319T115447   adding  : \\printserver1.mydomain.com\printer3
+20240319T115447   default : \\printserver1.mydomain.com\printer3
+20240319T115447   default : attempt 1 of 5 (20 second pause between)
+20240319T115507   default : attempt 2 of 5 (20 second pause between)
+20240319T115527   default : attempt 3 of 5 (20 second pause between)
+20240319T115547   default : attempt 4 of 5 (20 second pause between)
+20240319T115607   default : attempt 5 of 5 (20 second pause between)
+20240319T115607   -------------------------------
+20240319T115607   Seconds to complete work: 41
+```
+
 ## [realprint-manager.ps1](realprint-manager.ps1)
 Manager provides a frontend for assigning printers to endpoints.
 

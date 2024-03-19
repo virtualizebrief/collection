@@ -7,7 +7,7 @@ Enterprise print solution taylored to Citrix Virtual App & Desktop deployments. 
 
 ## [realprint-agent.ps1](realprint-agent.ps1)
 
-> [!NOTE]
+> [!IMPORTANT]
 > User needs read permission to real print database.
 
 Endpoint agent for querying real print database and connecting printers. Call agent at user login and user reconnect in task scheduler running as current user. 

@@ -50,4 +50,5 @@ Manager provides a frontend for assigning printers to endpoints.
 
 ## [convertto-textasciiart.ps1](convertto-textasciiart.ps1)
 > :memo: **Note:** This feature is option and can be disabled or not used.
+
 Creates the cool banner logo for real print manager.

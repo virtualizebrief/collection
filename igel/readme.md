@@ -26,6 +26,9 @@ Igel desktop theme. Light in colors using off white and blue with a hint of ligh
 > [!IMPORTANT]
 > Pairs with the file [imprivata_clean.sh](imprivata_clean.sh)
 
+> [!WARNING]
+> Do not attach this profile to a folder with devices that do not use Imprivata PIE. The result would be a device that reboots every 5 minutes.
+
 There is an issue with upgraded to Igel OS 11.09.x and running Imprivata ProveID Embedded 7.11 (I'll call it PIE for short). You must add PIE 7.12 for 11.09.x to your Imprivata appliance while keeping PIE 7.11 for 11.08.x.
 
 | Igel OS | Imprivata PIE |
@@ -40,6 +43,3 @@ There is an issue with upgraded to Igel OS 11.09.x and running Imprivata ProveID
   - if file does not exist, wipe ImprivataBootstrap, install ImprivataBootstrap, reboot
 
 :bulb: Attaching this profile to a folder that runs PIE will make sure PIE is installed and working on every device recardless if they are using Igel OS 11.08.x or Igel OS 11.09.x. This is as long as your Imprivata application also provides both PIE 7.11 and 7.12.
-
-> [!WARNING]
-> Do not attach this profile to a folder with devices that do not use Imprivata PIE. The result would be a device that reboots every 5 minutes.

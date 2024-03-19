@@ -7,13 +7,13 @@ Common admin functions managing a Citrix site. Click on any command to see a mor
 
 | Command | Description |
 | :--- | :--- |
-| [get-appnotrunning-prompttologoff.ps1](get-appnotrunning-prompttologoff.ps1) | some information about this file |
-| [get-concurrentuser-licensecount.ps1](get-concurrentuser-licensecount.ps1]) | some information about this file |
-| [remove-dg-machines-withfaultstate.ps1](remove-dg-machines-withfaultstate.ps1) | some information about this file |
-| [set-add-websitelink.ps1](set-add-websitelink.ps1) | some information about this file |
-| [set-app-disablelocallaunch.ps1](set-app-disablelocallaunch.ps1) | some information about this file |
+| [get-appnotrunning-prompttologoff.ps1](get-appnotrunning-prompttologoff.ps1) | Fine user session with app not running and offer to log all of these sessions off |
+| [get-concurrentuser-licensecount.ps1](get-concurrentuser-licensecount.ps1]) | Count of concurrent users. To be used when in Supplemental Grace Period to get overage count |
+| [remove-dg-machines-withfaultstate.ps1](remove-dg-machines-withfaultstate.ps1) | Remove machines with faultstate causing bad times |
+| [set-add-websitelink.ps1](set-add-websitelink.ps1) | Add website link to Citrix site. |
+| [set-app-disablelocallaunch.ps1](set-app-disablelocallaunch.ps1) | For Citrix Workspace. Disable local launch for an app. To always use published app instead |
 | [set-dc&cc-sslcert.ps1](set-dc&cc-sslcert.ps1) | Configure SSL for Citrix Delivery Controller or Cloud Connector |
-| [set-hidelogoffdisconnect-user-session.ps1](set-hidelogoffdisconnect-user-session.ps1) | some information about this file |
+| [set-hidelogoffdisconnect-user-session.ps1](set-hidelogoffdisconnect-user-session.ps1) | Hide, logoff and disconnect a user session. Great for service desk to correct busted users |
 
 ## Specific collections
 ### Site migration tools <br>

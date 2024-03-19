@@ -16,12 +16,12 @@ Having used these to aid in a Citrix site migration from on-prem to cloud. Plus 
 | [import-machinecatalog-machines.ps1](import-machinecatalog-machines.ps1) | add machines to machine catalog |
 | [import-machinecatalogs.ps1](import-machinecatalogs.ps1) | create machine catalogs |
 | [import-policies.ps1](import-policies.ps1) | import citrix policies |
-| [set-app-catagory-files.ps1](set-app-catagory-files.ps1) |  |
-| [set-app-catagory.ps1](set-app-catagory.ps1) | ... |
-| [set-app-keywords.ps1](set-app-keywords.ps1) | ... |
-| [set-dg-allapps-disabled.ps1](set-dg-allapps-disabled.ps1) | ... |
-| [set-dg-allapps-enabled.ps1](set-dg-allapps-enabled.ps1) | ... |
-| [set-dg-permissions-domainusers.ps1](set-dg-permissions-domainusers.ps1) | ... |
-| [set-icons-all.ps1](set-icons-all.ps1) | ... |
-| [set-icons-dg.ps1](set-icons-dg.ps1) | ... |
+| [set-app-catagory-files.ps1](set-app-catagory-files.ps1) | set application category for file collection |
+| [set-app-catagory.ps1](set-app-catagory.ps1) | set application category |
+| [set-app-keywords.ps1](set-app-keywords.ps1) | set keywords for all applications |
+| [set-dg-allapps-disabled.ps1](set-dg-allapps-disabled.ps1) | disable all apps for delivery group |
+| [set-dg-allapps-enabled.ps1](set-dg-allapps-enabled.ps1) | enable all apps for delivery group |
+| [set-dg-permissions-domainusers.ps1](set-dg-permissions-domainusers.ps1) | set all delivery group permissions to domain users |
+| [set-icons-all.ps1](set-icons-all.ps1) | used with Citrix Workspace harvested icons to set all apps icons from previous site |
+| [set-icons-dg.ps1](set-icons-dg.ps1) | used with Citrix Workspace harvested icons to set a delivery group apps icons from previous site |
 

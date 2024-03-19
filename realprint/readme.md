@@ -8,7 +8,7 @@ Enterprise print solution taylored to Citrix Virtual App & Desktop deployments. 
 ## [realprint-agent.ps1](realprint-agent.ps1)
 Endpoint agent for querying real print database and connecting printers.
 
-Performs the following
+Performs the following:
 - Connect to real print database by endpoint name
 - Get list of assigned printers and default
 - Attempt to connect to each printer

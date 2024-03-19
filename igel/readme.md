@@ -18,7 +18,7 @@ An Igel profile is a predefined configuration that can be assigned to managed de
 Igel desktop theme. Light in colors using off white and blue with a hint of light red for good measure. Pairs with a background imaged named `background.png`.
 
 ### Example
-Device configured for Igel Desktop with Epic Hyperspace Kiosk experience.
+_Device configured for Igel Desktop with Epic Hyperspace Kiosk experience._
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/249c7cc5-6b26-4615-898d-2794d1267fd9)
 
 

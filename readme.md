@@ -8,6 +8,10 @@ Choose a topic to find out more and dive into the code.
 [**Citrix Virtual App & Desktop**](cvadtools/readme.md) <br>
 Collection of powershell scripts for unlocking the features of a Citrix site. Works for both on-prem and cloud platforms.
 
+- `VMware Horizon` <br>
+[**horizon**](horizon/readme.md) <br>
+From my days admin VMware Horizon and Workspace ONE.
+
 - `igel` <br>
 [**Igel profiles**](igel/readme.md) <br>
 Profiles for configuring Igel devices. From themes to idle reboot schedules and more.

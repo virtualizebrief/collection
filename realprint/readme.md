@@ -53,6 +53,7 @@ Manager provides a frontend for assigning printers to endpoints. Screen capture 
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/d9d288c0-3146-4a6e-b259-91d14e0e4190)
 
 ## [convertto-textasciiart.ps1](convertto-textasciiart.ps1)
-> :memo: **Note:** This feature is option and can be disabled or not used.
+> [!TIP]
+This feature is option and can be disabled or not used.
 
 Creates the cool banner logo for real print manager.

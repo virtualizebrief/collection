@@ -41,5 +41,5 @@ There is an issue with upgraded to Igel OS 11.09.x and running Imprivata ProveID
 
 :bulb: Attaching this profile to a folder that runs PIE will make sure PIE is installed and working on every device recardless if they are using Igel OS 11.08.x or Igel OS 11.09.x. This is as long as your Imprivata application also provides both PIE 7.11 and 7.12.
 
-Do not attach this profile to a folder with devices that do not use Imprivata PIE. The result would be a device that reboots every 5 minutes.
-  
+> [!WARNING]
+> Do not attach this profile to a folder with devices that do not use Imprivata PIE. The result would be a device that reboots every 5 minutes.

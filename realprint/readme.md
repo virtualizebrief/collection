@@ -48,7 +48,7 @@ Log file can be kept local to the machine and/or copied to a network location fo
 ```
 
 ## [realprint-manager.ps1](realprint-manager.ps1)
-Manager provides a frontend for assigning printers to endpoints. Screen tells the story.
+Manager provides a frontend for assigning printers to endpoints. Screen capture tells the story.
 
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/d9d288c0-3146-4a6e-b259-91d14e0e4190)
 

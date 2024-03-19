@@ -50,7 +50,7 @@ Log file can be kept local to the machine and/or copied to a network location fo
 ## [realprint-manager.ps1](realprint-manager.ps1)
 > [!NOTE]
 > Real print uses a flat file database.
-> You can use a sql database and we have implementions with them. For simplicity on GitHub code has been written to use a flat file database structure.
+> You can use a sql database and we have successful implementions using them. For simplicity on GitHub code has been written to use a flat file database structure.
 
 Manager provides a frontend for assigning printers to endpoints. Screen capture tells the story.
 

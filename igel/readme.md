@@ -14,11 +14,10 @@ An Igel profile is a predefined configuration that can be assigned to managed de
 - Reduce administrative outlay
 - Reduce configuration options on the device
 
-### Profiles
-[**os11-theme-icecream.xml**](os11-theme-icecream.xml) <br>
+# [os11-theme-icecream.xml](os11-theme-icecream.xml) <br>
 Igel desktop theme. Light in colors using off white and blue with a hint of light red for good measure. Pairs with a background imaged named `background.png`.
 
-[**os11-imprivata-check-if-bootstrap.xml**](os11-imprivata-check-if-bootstrap.xml) <br>
+# [os11-imprivata-check-if-bootstrap.xml](os11-imprivata-check-if-bootstrap.xml) <br>
 > [!IMPORTANT]
 > Pairs with the file [imprivata_clean.sh](imprivata_clean.sh)
 

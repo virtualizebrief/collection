@@ -21,13 +21,13 @@ Igel desktop theme. Light in colors using off white and blue with a hint of ligh
 |[VB blog on topic](https://virtualizebrief.woodcloud.one/self-healing-for-igel-11-09-imprivata-pie-7-12/) :arrow_upper_right:|
 | :--- |
 
-### Mixing OS and PIE version
-
 > [!IMPORTANT]
 > Pairs with the file [imprivata_clean.sh](imprivata_clean.sh)
 
 > [!WARNING]
 > Do not attach this profile to a folder with devices that do not use Imprivata PIE. The result would be a device that reboots every 5 minutes.
+
+### Mixing OS and PIE version
 
 There is an issue with upgraded to Igel OS 11.09.x and running Imprivata ProveID Embedded 7.11 (I'll call it PIE for short). You must add PIE 7.12 for 11.09.x to your Imprivata appliance while keeping PIE 7.11 for 11.08.x.
 

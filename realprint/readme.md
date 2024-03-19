@@ -17,7 +17,7 @@ Performs the following:
 
 Log file can be kept local to the machine and/or copied to a network location for archiving or quick historical access.
 
-Example log file
+### Example log file
 ```
 20240319T115446 =========================================
 20240319T115446   Real Print

@@ -17,8 +17,8 @@ An Igel profile is a predefined configuration that can be assigned to managed de
 ## [os11-theme-icecream.xml](os11-theme-icecream.xml) <br>
 Igel desktop theme. Light in colors using off white and blue with a hint of light red for good measure. Pairs with a background imaged named `background.png`.
 
-## [os11-imprivata-check-if-bootstrap.xml :arrow_upper_right:](os11-imprivata-check-if-bootstrap.xml) <br>
-|[VB blog on topic](https://virtualizebrief.woodcloud.one/self-healing-for-igel-11-09-imprivata-pie-7-12/)|
+## [os11-imprivata-check-if-bootstrap.xml](os11-imprivata-check-if-bootstrap.xml) <br>
+|[VB blog on topic :arrow_upper_right:](https://virtualizebrief.woodcloud.one/self-healing-for-igel-11-09-imprivata-pie-7-12/)|
 | :--- |
 
 > [!IMPORTANT]

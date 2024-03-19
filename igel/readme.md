@@ -35,6 +35,6 @@ There is an issue with upgraded to Igel OS 11.09.x and running Imprivata ProveID
   - if file exist do nothing, write log file.
   - if file does not exist, wipe ImprivataBootstrap, install ImprivataBootstrap, reboot
 
-Attaching this profile to a folder that runs PIE will make sure PIE is installed and working on every device recardless if they are using Igel OS 11.08.x or Igel OS 11.09.x. This is as long as your Imprivata application also provides both PIE 7.11 and 7.12.
+:bulb: Attaching this profile to a folder that runs PIE will make sure PIE is installed and working on every device recardless if they are using Igel OS 11.08.x or Igel OS 11.09.x. This is as long as your Imprivata application also provides both PIE 7.11 and 7.12.
 
   

@@ -12,6 +12,7 @@ Common admin functions managing a Citrix site. Click on any command to see a mor
 | [remove-dg-machines-withfaultstate.ps1](remove-dg-machines-withfaultstate.ps1) | some information about this file |
 | [set-add-websitelink.ps1](set-add-websitelink.ps1) | some information about this file |
 | [set-app-disablelocallaunch.ps1](set-app-disablelocallaunch.ps1) | some information about this file |
+| [set-dc&cc-sslcert.ps1](set-dc&cc-sslcert.ps1) | Configure SSL for Citrix Delivery Controller or Cloud Connector |
 | [set-hidelogoffdisconnect-user-session.ps1](set-hidelogoffdisconnect-user-session.ps1) | some information about this file |
 
 ## Specific collections

@@ -15,4 +15,4 @@ Common admin functions managing a Horizon site. Click on any command to see a mo
 
 
 |Jonah|
-|...|
+|---|

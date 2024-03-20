@@ -5,7 +5,7 @@ Collection of highly customized Citrix StoreFront themes. These do integrate nic
 ### Cascading style sheet
 - User name in upper right
 - Headers and footers for login and store landings
-- Advertisement banner in store
+- Advertisement banner
 - Featured categories have matching theme colors
 - Arrow down app button hidden
 - About screen customized

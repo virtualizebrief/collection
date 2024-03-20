@@ -13,4 +13,4 @@ Common admin functions managing a Horizon site. Click on any command to see a mo
 | [globalentitlement-create-ge-fordesktoppool.ps1](globalentitlement-create-ge-fordesktoppool.ps1) | ... |
 | [globalentitlement-delete-ge-forapplication.ps1](globalentitlement-delete-ge-forapplication.ps1) | ... |
 
-
+[![Badge License]][License]   

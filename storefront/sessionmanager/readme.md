@@ -2,4 +2,6 @@
 |---|---|---|---|---|---|
 
 # Storefront / Session Manager
-Building on existing code writting by @givecredit
+# Citrix Virtual App & Desktop / Remote PC
+|:construction: :construction_worker: :construction: <br>coming <br>soon|
+|---|

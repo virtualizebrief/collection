@@ -1,6 +1,6 @@
 # Storefront / Theme / Marketplace
 
-## Photo gallery
+### Photo gallery
 ##### Login page
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/0bf49414-ee79-449b-be5d-7fc6fe1e9602)
 

@@ -16,6 +16,8 @@ Common features for Citrix Storefront. Click on a script to see a more detailed 
 ### Session Manager <br>
 - `sessionmanager` <br>
 [Take me to repository](sessionmanager/readme.md) <br>
+|:construction: :construction_worker: :construction: <br>under <br>construction|
+|---|
 Frontend for end users to manage their Citrix sessions from a website.
 
 ### Themes <br>

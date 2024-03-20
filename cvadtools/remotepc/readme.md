@@ -2,5 +2,5 @@
 |---|---|---|---|---|---|
 
 # Citrix Virtual App & Desktop / Remote PC
-|:construction_worker: :construction_worker: <br> under <br>construction <br>|
+|:construction_worker: <br>under <br>construction|
 |---|

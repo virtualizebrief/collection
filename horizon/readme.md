@@ -14,5 +14,5 @@ Common admin functions managing a Horizon site. Click on any command to see a mo
 | [globalentitlement-delete-ge-forapplication.ps1](globalentitlement-delete-ge-forapplication.ps1) | ... |
 
 
-| ![ image ><](https://github.com/virtualizebrief/collection/assets/153381859/5c4f1b77-4c4f-45ba-9343-48683c272a65) <br> [Jonah <br><br>](https://ebay.com)|
+|<br>![ image ><](https://github.com/virtualizebrief/collection/assets/153381859/5c4f1b77-4c4f-45ba-9343-48683c272a65) <br> [Jonah <br><br>](https://ebay.com)|
 |---|

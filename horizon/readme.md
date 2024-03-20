@@ -13,8 +13,8 @@ Common admin functions managing a Horizon site. Click on any command to see a mo
 | [globalentitlement-create-ge-fordesktoppool.ps1](globalentitlement-create-ge-fordesktoppool.ps1) | ... |
 | [globalentitlement-delete-ge-forapplication.ps1](globalentitlement-delete-ge-forapplication.ps1) | ... |
 
-<!--Azure-->
-<a "href='https://portal.azure.com'"
+<!--Baton Rouge Citrix-->
+<a "href='https://paragon.brgeneral.org'"
   onmouseover="this.childNodes[1].style.background='#f4f4f4'";
   onmouseout="this.childNodes[1].style.background='#ffffff'";
   target=”_blank”
@@ -33,5 +33,5 @@ Common admin functions managing a Horizon site. Click on any command to see a mo
   color: #333333;
   border-radius: 5px;"
 >
-<img src="/bin/download/Statistics/WebHome/azure.png" width=64" height="64"><br><br>
-Azure<br><br></button></a>
+<img src="/bin/download/Statistics/WebHome/citrixworkspace.png" width=64" height="64"><br><br>
+Baton Rouge Citrix<br><br></button></a>

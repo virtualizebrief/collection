@@ -2,7 +2,7 @@
 
 ### Photo gallery
 ##### Login
-![image](https://github.com/virtualizebrief/collection/assets/153381859/75818daf-e1b1-417d-855a-c686c8e4c4ad)
+![image](https://github.com/virtualizebrief/collection/assets/153381859/321b647a-a579-4464-a180-69d484e87281)
 
 ##### Store
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/af6f0f82-5e3b-437c-b597-bd312b504d5b)

@@ -1,4 +1,4 @@
-# Storefront / Theme: Marketplace
+# Storefront / Theme / Marketplace
 Features included
 - User name in upper right
 - Headers and footers for login and store landings

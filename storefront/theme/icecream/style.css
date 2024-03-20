@@ -1,0 +1,530 @@
+﻿.is-hdpi .logon-logo-container{
+background-image: url(./woodcloud-marketplace.png);
+background-repeat: no-repeat;
+background-size: 140px 57px;
+}
+.logon-logo-container{
+background-image: url(./woodcloud-marketplace.png);
+background-repeat: no-repeat;
+}
+
+/* Store Header */
+#customTop {
+background-color:#eeeeee;
+text-align: center;
+color:#4f4f4f;
+font-size:14px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+/* Store Footer */
+#customBottom{
+font-family: 'Segoe UI';
+font-size:14px;
+color: #333333;
+background-color: #eeeeee;
+text-align:center;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+.toolbar{
+display: none;
+background-color: #dddddd;
+padding-top:0px;
+margin-bottom:-80px;
+}
+
+.settings-button {
+display: inline !important;
+margin-right: 0px !important;
+margin-top: 0px !important;
+}
+
+.dropdown-menu-top {
+display: inline-block !important;
+}
+
+.dropdown-menu-container .embedded-settings-icon-svg {
+margin-left: 0px !important;
+margin-right: 20px !important;
+}
+
+.user-display-name {
+margin-top: 14px !important;
+color: #ffffff;
+padding-right: 5px;
+padding-left: 10px;
+}
+
+.embedded-settings-icon-svg {
+margin-top: 22px !important;
+margin-right: 20px !important;
+background-image: none;
+}
+
+.dropdown-menu::before {
+display: none;
+}
+
+/* Logon Branding Header */
+.customAuthTop {
+font-size:16px;
+color:#f4f3f1;
+text-align:center;
+}
+
+/* Logon Bottom Footer */
+.customAuthFooter {
+font-family: 'Segoe UI';
+font-size:14px;
+color: #333333;
+background-color: #eeeeee;
+text-align:center;
+padding-top: 0px;
+padding-bottom: 0px;
+}
+
+/* Login box default text */
+.credentialform span.pseudo-input.show {
+ visibility: hidden;
+}
+
+/* Logon Top Header */
+.customAuthHeader {
+font-size:14px;
+height: 42px;
+color:#333333;
+background-color: #eeeeee;
+background-image: url(./virtualizebrief-blocks.png);
+background-size: 45px;
+background-repeat: no-repeat;
+background-position: left;
+background-origin: content-box;
+padding-top: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+margin: 0px;
+text-align: right;
+}
+
+.customAuthTop {
+font-size:12px;
+color:white;
+text-align:center;
+}
+
+.loading-logo {
+background-image: url(./woodcloud-marketplace.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 155px;
+background-color:#375A8F;
+}
+
+.small .loading-logo {
+background-image: url(./woodcloud-marketplace.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 155px;
+background-color:#375A8F;
+}
+
+.large .loading-logo {
+background-image: url(./woodcloud-marketplace.png);
+background-repeat: no-repeat;
+background-position: center;
+background-size: 155px;
+background-color:#375A8F;
+}
+
+/* The image/logo at the top left when logged on. */
+.header-logo {
+float:center;
+background-image: url(./woodcloud-marketplace.png);
+background-repeat:no-repeat;
+background-size: auto;
+}
+
+.web-screen .content-area {
+background-color:#375A8F;
+}
+
+.button.default {
+background-color: #D46D68;
+color: #ffffff;
+	transition-duration: 0.2s;
+ 	border: #1883C9;
+	border-style: solid;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+.button.default:hover {
+/* background-color: #cccccc;
+color: #555555; */
+background-color: #cd5751;
+color: #ffffff;
+	transition-duration: 0.2s;
+	border: #1883C9;
+	border-style: solid;
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 0px;
+}
+
+.credentialform .plain {
+color: #DDDDDD;
+}
+
+.web-screen
+{
+background-image: url(./Background-Grey.png);
+background-repeat:no-repeat;
+background-size: cover;
+background-color:#375A8F;
+color: black;
+}
+
+.loading-screen {
+background-color:#375A8F;
+color: black;
+}
+
+.logo-container{
+background-image: url(./woodcloud-marketplace.png);
+background-repeat: no-repeat;
+background-size: 200px;
+background-color:#375A8F;
+width: 200px;
+height: 50px;
+background-position: top;
+float: top;
+}
+
+.is-hdpi .logon-logo-container{
+background-image: url(./woodcloud-marketplace.png);
+background-repeat: no-repeat;
+background-size: 200px;
+background-color:#375A8F;
+width: 200px;
+height: 50px;
+background-position: top;
+float: top;
+}
+
+.theme-header-bgcolor {
+background-image: none;
+background-color: #375A8F;
+}
+
+/* Tile Button Colors */
+.theme-header-color {
+color:#ffffff;
+}
+.theme-highlight-color {
+background-color: none;
+color:#232F3E;
+/* color:#70536A; */
+}
+
+.large .store-view .toolbar-button {
+
+    display: none;
+
+}
+
+.largeTiles .store-apps-title {
+display: none;
+background-color: #ffffff;
+color:#70536A;
+}
+
+.theme-header-selection-color.selected {
+    background-color: #5B79B1;
+	color: #ffffff;
+}
+
+#bundleAddAll {
+display:none;
+visibility: hidden;	
+}
+
+.citrixReceiverLogoAboutBox {
+background-image: url(./virtualizebrief-blocks.png);
+background-size: 75px;
+}
+
+.aboutBox, .about-view {
+  background-color: #ffffff;
+}
+
+.storeViewSection {
+   background: url(./background19.png) no-repeat center center fixed;
+   background-size: cover;
+   background-color: #333333;
+   color: #333333;
+}
+
+    .butMenu {
+    background-color: #eeeeee;
+	border: #eeeeee;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: #444444;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;	
+    margin: 0px 0px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	display: inline;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+    }
+	
+	.butMenu:hover {
+	background-color: #eeeeee;
+	border: #D46D68;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: #444444;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;	
+    margin: 0px 0px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	display: inline;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	}
+	
+    .butMenuStore {
+    background-color: #eeeeee;
+	border: #eeeeee;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: #444444;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;	
+    margin: 0px 0px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	display: inline;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+    }
+	
+	.butMenuStore:hover {
+	background-color: #eeeeee;
+	border: #D46D68;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: #444444;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;	
+    margin: 0px 0px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	display: inline;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	}
+	
+form {
+    display: inline-block;
+}
+
+    .butMenuSmall {
+    background-color: #eeeeee;
+	border: #eeeeee;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: #444444;
+    padding: 12px 0px;
+    text-align: center;
+    text-decoration: none;	
+    margin: 0px 0px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	display: inline;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+    }
+	
+	.butMenuSmall:hover {
+	background-color: #eeeeee;
+	border: #D46D68;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: #444444;
+    padding: 12px 0px;
+    text-align: center;
+    text-decoration: none;	
+    margin: 0px 0px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	display: inline;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	}
+
+	.butMenuSelected {
+	background-color: #eeeeee;
+	border: #5B79B1;
+	border-style: solid;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	color: #444444;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;	
+    margin: 0px 0px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	display: inline;
+	font-family: 'Segoe UI';
+	font-size: 14px;
+	}
+
+.largeTiles .applicationBundleTitle {
+color: #ffffff;
+font-size: 24px;
+font-weight: ;
+}
+.smallTiles .applicationBundleTitle  {
+color: #ffffff;
+font-weight: ;
+}
+.largeTiles .applicationBundleText {
+color: #eeeeee;
+font-size: 14px;
+}
+.smallTiles .applicationBundleText {
+color: #eeeeee;
+}
+
+.largeTiles .applicationBundleHeaderTitle {
+color: #ffffff;
+font-size: 24px;
+font-weight: ;
+}
+.smallTiles .applicationBundleHeaderTitle  {
+color: #ffffff;
+font-weight: ;
+}
+.largeTiles .applicationBundleHeaderText {
+color: #eeeeee;
+font-size: 14px;
+}
+.smallTiles .applicationBundleHeaderText {
+color: #eeeeee;
+}
+
+.largeTiles .appBundle1 {
+  background-image: url('bundle_background.png');
+}
+
+.smallTiles .appBundle1 {
+  background-image: url('bundle_background.png');
+}
+
+.largeTiles .appBundle2 {
+  background-image: url('bundle_background.png');
+}
+
+.smallTiles .appBundle2 {
+  background-image: url('bundle_background.png');
+}
+
+.largeTiles .appBundle3 {
+  background-image: url('bundle_background.png');
+}
+
+.smallTiles .appBundle3 {
+  background-image: url('bundle_background.png');
+}
+
+.largeTiles .appBundle4 {
+  background-image: url('bundle_background.png');
+}
+
+.smallTiles .appBundle4 {
+  background-image: url('bundle_background.png');
+}
+
+.largeTiles .appBundle5 {
+  background-image: url('bundle_background.png');
+}
+
+.smallTiles .appBundle5 {
+  background-image: url('bundle_background.png');
+}
+
+.largeTiles .appBundle6 {
+  background-image: url('bundle_background.png');
+}
+
+.smallTiles .appBundle6 {
+  background-image: url('bundle_background.png');
+}
+
+.bundleDetail.appBundle1 {
+	background-image: url('bundle_banner.png');
+}
+
+.bundleDetail.appBundle2 {
+	background-image: url('bundle_banner.png');
+}
+
+.bundleDetail.appBundle3 {
+	background-image: url('bundle_banner.png');
+}
+
+.bundleDetail.appBundle4 {
+	background-image: url('bundle_banner.png');
+}
+
+.bundleDetail.appBundle5 {
+	background-image: url('bundle_banner.png');
+}
+
+.bundleDetail.appBundle6 {
+	background-image: url('bundle_banner.png');
+}
+.applicationBundleHeaderOverlay {
+background-image: none;	
+}
+
+.largeTiles .storeapp-action-link {
+display: none;
+}
+
+/* Domain Button Settings */
+.credentialform select {
+background-color: #E8F0FE;
+width: 385px;
+border-radius: 0px;
+margin-right: 0px;
+}

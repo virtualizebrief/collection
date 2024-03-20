@@ -22,7 +22,7 @@ Classy theme using a charcoal color pallet.
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/8c8c4943-5c14-4b78-a7c8-b35a55706586)
 
 # :icecream: [Ice cream](icecream/readme.md)
-Good looking blue with a touch of red theme using the ice cream store logo.
+Blue with a touch of red using the ice cream store logo.
 
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/af6f0f82-5e3b-437c-b597-bd312b504d5b)
 

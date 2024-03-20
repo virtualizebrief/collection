@@ -2,6 +2,6 @@
 |---|---|---|---|---|---|
 
 # Storefront / Session Manager
-# Citrix Virtual App & Desktop / Remote PC
+
 |:construction: :construction_worker: :construction: <br>under <br>construction|
 |---|

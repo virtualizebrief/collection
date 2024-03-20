@@ -12,14 +12,3 @@ Common admin functions managing a Horizon site. Click on any command to see a mo
 | [globalentitlement-create-ge-forapplication.ps1](globalentitlement-create-ge-forapplication.ps1) | ... |
 | [globalentitlement-create-ge-fordesktoppool.ps1](globalentitlement-create-ge-fordesktoppool.ps1) | ... |
 | [globalentitlement-delete-ge-forapplication.ps1](globalentitlement-delete-ge-forapplication.ps1) | ... |
-
-
-|![ image ><](https://github.com/virtualizebrief/collection/assets/153381859/5c4f1b77-4c4f-45ba-9343-48683c272a65) <br> [Jonah <br><br>](https://ebay.com)|&nbsp;|![ image ><](https://github.com/virtualizebrief/collection/assets/153381859/5c4f1b77-4c4f-45ba-9343-48683c272a65) <br> [Jonah <br><br>](https://ebay.com)|
-|---|---|---|
-
-
-|![ image ><](https://github.com/virtualizebrief/collection/assets/153381859/5c4f1b77-4c4f-45ba-9343-48683c272a65) <br> [Jonah <br>](https://ebay.com)|
-|---|
-
-|![ image ><](https://github.com/virtualizebrief/collection/assets/153381859/5c4f1b77-4c4f-45ba-9343-48683c272a65) <br> [Jonah <br><br>](https://ebay.com)|
-|---|

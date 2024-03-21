@@ -16,6 +16,8 @@ Collection of highly customized Citrix StoreFront themes. These do integrate nic
 - Store categories: disable infinite scrolling
 - About button: custom entries
 
+And much more...
+
 # :necktie: [Marketplace](marketplace/readme.md)
 Classy theme using a charcoal color pallet.
 

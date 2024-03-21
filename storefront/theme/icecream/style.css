@@ -117,26 +117,26 @@ text-align:center;
 }
 
 .loading-logo {
-background-image: url(./woodcloud-marketplace.png);
+background-image: url(./marketplace-icon.png);
 background-repeat: no-repeat;
 background-position: center;
-background-size: 155px;
+/* background-size: 155px; */
 background-color:#375A8F;
 }
 
 .small .loading-logo {
-background-image: url(./woodcloud-marketplace.png);
+background-image: url(./marketplace-icon.png);
 background-repeat: no-repeat;
 background-position: center;
-background-size: 155px;
+/* background-size: 155px; */
 background-color:#375A8F;
 }
 
 .large .loading-logo {
-background-image: url(./woodcloud-marketplace.png);
+background-image: url(./marketplace-icon.png);
 background-repeat: no-repeat;
 background-position: center;
-background-size: 155px;
+/* background-size: 155px; */
 background-color:#375A8F;
 }
 

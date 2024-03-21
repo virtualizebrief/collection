@@ -1,6 +1,5 @@
 # Storefront / Theme / Marketplace
 
-## Photo gallery
 ### Login
 Top menu bar showing three configurable buttons, footer credits.
 

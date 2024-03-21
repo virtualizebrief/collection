@@ -1,7 +1,9 @@
 # Session Manager
-This is a companion theme and customized settings for [Citrix Self Service Session Manager](https://github.com/jeremyts/SelfServiceSessionReset). You will need to download the base code and configure the tool first. Then after use the repo here to polish off the look and features.
+This is a companion theme and customized settings for [Citrix Self Service Session Manager](https://github.com/jeremyts/SelfServiceSessionReset). You will need to download the base code and configure the tool first. Then after use the repo here to polish off the theme and features which matches the published Storefront themes.
 
-Full credit goes to [J House Consulting](https://www.jhouseconsulting.com/jhouseconsulting/2020/08/28/citrix-self-service-session-reset-tool-2106). Jeremy did a fantastic job of putting this code together for a website frontend for end users to manage all of their Citrix sessions in one place. In addition the real key is action takeno on the site hides user sessions, which always corrects things that are busted.
+### Full credit goes to [J House Consulting](https://www.jhouseconsulting.com/jhouseconsulting/2020/08/28/citrix-self-service-session-reset-tool-2106).
+
+Jeremy did a fantastic job of putting this code together for a website frontend for end users to manage all of their Citrix sessions in one place. In addition the real key is action takeno on the site hides user sessions, which always corrects things that are busted.
 
 ### Youtube video from Jeremy Saunders
 [![Citrix Session Manager](https://github.com/virtualizebrief/collection/assets/153381859/e80bb0fe-cb55-4ff6-9c86-9ef5f214b3c0)](https://www.youtube.com/watch?v=tze6cf-9xfk "Citrix Session Manager")

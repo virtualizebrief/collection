@@ -1,8 +1,8 @@
-|[Home](https://github.com/virtualizebrief)|[Collection](https://github.com/virtualizebrief/collection/blob/main/readme.md)|[Wiki](https://github.com/virtualizebrief/home/wiki)|[Wood cloud](https://marketplace.woodcloud.one/) :arrow_upper_right:|[VB blog](https://virtualizebrief.woodcloud.one/) :arrow_upper_right:|[MW LinkedIn](https://www.linkedin.com/in/michaelcharleswood/) :arrow_upper_right:
+|[Home](https://github.com/virtualizebrief)|[Collection](https://github.com/virtualizebrief/collection)|[Wiki](https://github.com/virtualizebrief/home/wiki)|[Wood cloud](https://marketplace.woodcloud.one/) :arrow_upper_right:|[VB blog](https://virtualizebrief.woodcloud.one/) :arrow_upper_right:|[MW LinkedIn](https://www.linkedin.com/in/michaelcharleswood/) :arrow_upper_right:
 |---|---|---|---|---|---|
 
 # Welcome to the Virtualize Brief collection
-Choose a topic to find out more and dive into the code.
+Choose a topic to find out more and dive into the code. Also [download](https://github.com/virtualizebrief/collection/archive/refs/heads/main.zip) the entire collection and explore on your own.
 
 - `cvadtools` <br>
 [**Citrix Virtual App & Desktop**](cvadtools/readme.md) <br>

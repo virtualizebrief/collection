@@ -6,11 +6,11 @@ Full credit goes to [J House Consulting](https://www.jhouseconsulting.com/jhouse
 ### Youtube video from Jeremy Saunders
 [![Citrix Session Manager](https://github.com/virtualizebrief/collection/assets/153381859/e80bb0fe-cb55-4ff6-9c86-9ef5f214b3c0)](https://www.youtube.com/watch?v=tze6cf-9xfk "Citrix Session Manager")
 
-### Features
+## Features
 - Provides for a more storefront looking theme to help user feel session manager is an extension the citrix platform.
 - Single 'fix me' button combines: disconnect, logoff and hide session.
 
-### Images
+## Images
 Home page showing sessions for the default site. Drop down can be selected to choose seesions on additional sites.
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/33206185-cdef-49e2-b0a2-ffead1dfb647)
 

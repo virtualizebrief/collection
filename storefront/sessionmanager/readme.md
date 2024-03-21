@@ -10,11 +10,11 @@ Jeremy did a fantastic job of putting this code together for a website frontend 
 
 ## Features
 - Provides for a more storefront looking theme to help user feel session manager is an extension the citrix platform.
-- Single `:red_circle: fix me` button combines: disconnect, logoff and hide session.
+- Single :red_circle:`fix me` button combines: disconnect, logoff and hide session.
 
 ## Images
 Home page showing sessions for the default site. Drop down can be selected to choose seesions on additional sites.
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/33206185-cdef-49e2-b0a2-ffead1dfb647)
 
-Results display from selecting a session and choosing: `:red_circle: fix me`
+Results display from selecting a session and choosing: :red_circle:`fix me`
 ![here](https://github.com/virtualizebrief/collection/assets/153381859/c98c8960-65a4-4980-83c1-7925c77b6320)

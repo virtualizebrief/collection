@@ -1,4 +1,4 @@
-# Storefront / Theme / Marketplace
+# Maketplace - Storefront theme
 
 ### Login
 Top menu bar showing three configurable buttons, footer credits.

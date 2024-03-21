@@ -2,7 +2,7 @@
 |---|---|---|---|---|---|
 
 # Welcome to the Virtualize Brief collection
-Choose a topic to find out more and dive into the code.
+Choose a topic to find out more and dive into the code. Also [download](https://github.com/virtualizebrief/collection/archive/refs/heads/main.zip) the entire collection and explore on your own.
 
 - `cvadtools` <br>
 [**Citrix Virtual App & Desktop**](cvadtools/readme.md) <br>

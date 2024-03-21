@@ -17,4 +17,4 @@ Home page showing sessions for the default site. Drop down can be selected to ch
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/33206185-cdef-49e2-b0a2-ffead1dfb647)
 
 Results display from selecting a session and choosing: fix me.
-![image](https://github.com/virtualizebrief/collection/assets/153381859/83a30129-c297-4bdc-bc71-9a63134a09e3)
+![here](https://github.com/virtualizebrief/collection/assets/153381859/c98c8960-65a4-4980-83c1-7925c77b6320)

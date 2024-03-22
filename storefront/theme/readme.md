@@ -16,6 +16,8 @@ Collection of highly customized Citrix StoreFront themes. These do integrate nic
 - Store categories: disable infinite scrolling
 - About button: custom entries
 
+And much more...
+
 # :necktie: [Marketplace](marketplace/readme.md)
 Classy theme using a charcoal color pallet.
 
@@ -24,5 +26,6 @@ Classy theme using a charcoal color pallet.
 # :icecream: [Ice cream](icecream/readme.md)
 Blue with a touch of red using the ice cream store logo.
 
-![image](https://github.com/virtualizebrief/collection/assets/153381859/af6f0f82-5e3b-437c-b597-bd312b504d5b)
+![here](https://github.com/virtualizebrief/collection/assets/153381859/93168b16-4d5b-4287-865c-24ba26eb196c)
+
 

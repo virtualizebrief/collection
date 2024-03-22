@@ -29,3 +29,21 @@ This code is written assuming your executing it local to a Citrix delivery contr
 |CTX-VM-04|6|32212254720|XEN-01|
 |CTX-VM-05|6|32212254720|XEN-01|
 
+<!--
+
+```
+Gathering info...
+
+Report location: C:\Support\xenserver\reports
+Password for XenServers: <censored>
+
+XenServer in use with Citrix site
+Count: 48
+
+Checking each XenServer...done!
+Created single log file: C:\Support\xenserver\reports\XenServer-VM-BigReport-20240322.113852.csv
+
+Press Enter to continue...: 
+```
+
+-->

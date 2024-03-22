@@ -1,8 +1,7 @@
+# XenServer
+Citrix release of a modern hypervisor. Most popular for publishing VMs for Citrix Virtual App & Desktop workloads.
 
-
-
-
-### get-xenserver-vm-info.ps1
+## [get-xenserver-vm-info.ps1](get-xenserver-vm-info.ps1)
 > [!IMPORTANT]
 > Powershell modules required
 > - Citrix SDK (Citrix site management, ie Citrix Studio installation or Cloud Posh SDK)

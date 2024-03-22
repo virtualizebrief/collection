@@ -17,10 +17,10 @@ This code is written assuming your executing it local to a Citrix delivery contr
 - Create csv for each XenServer
 - Create csv for all XenServer and VMs. Single pain of glass
 
-### Powershell output
+### Powershell output example
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/3ce18dab-cc44-466e-bb4a-c4b7c21feec9)
 
-### CSV report
+### CSV report example
 |name_label|VCPUs_max|memory_static_max|XenServer|
 |---|---|---|---|
 |CTX-VM-01|6|32212254720|XEN-01|

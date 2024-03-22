@@ -1,5 +1,5 @@
 # XenServer
-Citrix release of a modern hypervisor. Most popular for publishing VMs for Citrix Virtual App & Desktop workloads.
+Citrix own hypervisor. Most popular for publishing VMs for Citrix Virtual App & Desktop workloads.
 
 ## [get-xenserver-vm-info.ps1](get-xenserver-vm-info.ps1)
 > [!IMPORTANT]

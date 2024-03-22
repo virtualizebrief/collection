@@ -15,7 +15,7 @@ This code is written assuming your executing it local to a Citrix delivery contr
 - Get list of all VMs connect to each XenServer
 - Get list of specs for each VM. Default is `name_label,vcpus_max,memory_static_max`
 - Create csv for each XenServer
-- Create csv for all XenServer and VMs. Single pain of glass
+- Create csv for all XenServer and VMs: single pain of glass.
 
 ### Powershell output example
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/3ce18dab-cc44-466e-bb4a-c4b7c21feec9)

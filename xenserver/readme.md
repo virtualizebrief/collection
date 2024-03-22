@@ -17,4 +17,5 @@ This code is written assuming your executing it local to a Citrix delivery contr
 - Create csv for each XenServer
 - Create csv for all XenServer and VMs. Single pain of glass
 
+### Results
 ![image](https://github.com/virtualizebrief/collection/assets/153381859/3ce18dab-cc44-466e-bb4a-c4b7c21feec9)

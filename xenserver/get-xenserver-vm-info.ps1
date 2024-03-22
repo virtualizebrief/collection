@@ -39,13 +39,11 @@ Connect-XenServer -Url "http://$XenServer" -UserName root -Password $password
 
 Get-XenSession | Disconnect-XenServer
 
-
     $csv = Import-Csv $reportLocation\$XenServer-$GetDate.csv
     ForEach ($row in $csv) {
         $row | Add-Member -NotePropertyName 'XenServer' -NotePropertyValue $XenServer
         }
     $csv | Export-Csv $reportLocation\$XenServer-$GetDate.csv -NoTypeInformation -Force
-
 
 #Write-Host "done!" -ForegroundColor Green
 

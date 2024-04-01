@@ -1,5 +1,4 @@
 #-welcome and get desktop name
-
 clear-host
 write-host ""
 write-host "Powertools" -ForegroundColor Cyan

@@ -8,7 +8,7 @@ Collection of powershell things for Citrix stuff.
 
 |AD Group(s)|
 |:---|
-| • CTX-PowertoolsUSers <br> • HelpDeskUsers|
+| • CTX-PowertoolsUsers <br> • HelpDeskUsers|
 
 
 ## Features

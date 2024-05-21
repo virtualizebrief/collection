@@ -8,8 +8,10 @@ Collection of powershell things for Citrix stuff.
 
 ## Entitlement
 
-|![Citrix app tile](powertools-01.png)|**AD Group(s)**<br> • CTX-PowertoolsUSers<br> • <br> • HelpDeskUsers|
-|||
+![Citrix app tile](powertools-01.png)
+**AD Group(s)**
+ • CTX-PowertoolsUSers
+ • HelpDeskUsers
 
 
 ## Features

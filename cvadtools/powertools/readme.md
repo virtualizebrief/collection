@@ -10,11 +10,9 @@ Collection of powershell things for Citrix stuff.
 
 ![Citrix app tile](powertools-01.png)
 
-**AD Group(s)**
-
- • CTX-PowertoolsUSers
-
- • HelpDeskUsers
+||
+|:---|
+|**AD Group(s)** <br> • CTX-PowertoolsUSers <br> • HelpDeskUsers|
 
 
 ## Features

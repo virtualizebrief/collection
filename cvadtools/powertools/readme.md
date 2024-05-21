@@ -1,7 +1,3 @@
----
-icon: tools
----
-
 # Powertools
 
 Collection of powershell things for Citrix stuff.

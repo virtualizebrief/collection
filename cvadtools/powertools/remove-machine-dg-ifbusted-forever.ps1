@@ -58,7 +58,7 @@ If ($vdas -ne $null){
     ### Round 2 display
     write-host "Round 2 - Found busted machines: " -nonewline -ForegroundColor yellow
     write-host "$count2" -foregroundcolor red
-    $vdas
+    $vda2s
     write-host ""
     get-date
     write-host ""

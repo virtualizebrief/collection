@@ -30,7 +30,7 @@ If ($vdas -eq $null){
 
     write-host "Busted machines found: " -nonewline -foregroundcolor yellow
     write-host "0" -foregroundcolor green
-    get-date
+    Get-Date -Format "yyyy.MM.dd | HH:mm:ss tt"
     write-host "Yay! no busted machines. resting for 5 minutes..." -ForegroundColor cyan
     start-sleep -s 300
 
@@ -43,12 +43,13 @@ If ($vdas -ne $null){
     write-host "Round 1 - Found busted machines: " -nonewline -ForegroundColor yellow
     write-host "$count" -foregroundcolor red
     $vdas
-    get-date
+    Get-Date -Format "yyyy.MM.dd | HH:mm:ss tt"
     write-host "Resting for 5 minutes and check again..." -ForegroundColor cyan
     write-host ""
     start-sleep -s 300
 
     ### Get 2nd list
+    $bustedvdas = $null # reset value
     $busted2 = get-brokermachine -RegistrationState Unregistered -PowerState On | Where-Object {$_.DesktopGroupName -ne $null}
     $vda2s = ($busted2).HostedMachineName
     $bustedvdas = Compare-Object -ReferenceObject $vdas -DifferenceObject $vda2s -IncludeEqual | Where-Object {$_.SideIndicator -like "=="} |  foreach { $_.InputObject }
@@ -59,22 +60,31 @@ If ($vdas -ne $null){
     write-host "Round 2 - Found busted machines: " -nonewline -ForegroundColor yellow
     write-host "$count2" -foregroundcolor red
     $vda2s
-    write-host ""
-    get-date
+    Get-Date -Format "yyyy.MM.dd | HH:mm:ss tt"
     write-host ""
     write-host "True busted machines: " -nonewline -ForegroundColor yellow
-    write-host "$truecount"
+    write-host "$truecount" -ForegroundColor red
 
-    ### Take action: remove busted machines from delivery group
-    foreach ($bustedvda in $bustedvdas){
-        $dg = (get-brokermachine -HostedMachineName $bustedvda).DesktopGroupName
-        write-host "Removing $bustedvda from $dg..."
-        Remove-BrokerMachine -MachineName vanclinic\$bustedvda -DesktopGroup $dg -force
-        write-host "done!"
-        }
+    ### Take action if less than 10 machines found
+    if ($truecount -lt "10"){
+
+        foreach ($bustedvda in $bustedvdas){
+            $dg = (get-brokermachine -HostedMachineName $bustedvda).DesktopGroupName
+            write-host "Removing $bustedvda from $dg..." -NoNewline
+            Remove-BrokerMachine -MachineName vanclinic\$bustedvda -DesktopGroup $dg -force
+            write-host "done!" -ForegroundColor Green
+            }
+    
+    }
+    if ($truecount -gt "9"){
+
+        write-host "10 or more busted!"
+        write-host "No action taken. You need to investigate."
+    
+    }
+
 
     ### Rest before doing all over
-    write-host "Busted machine no longer a problem."
     write-host "Resting for 5 minutes to start over..." -ForegroundColor cyan
     start-sleep -s 300
     

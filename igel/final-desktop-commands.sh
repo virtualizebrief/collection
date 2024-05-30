@@ -1,15 +1,15 @@
 #!/bin/bash
 mkdir /run/logs
-echo \ >> /run/logs/final-dcommand-2024.05.29p
-echo "Final Desktop Custom Commands"\ >> /run/logs/final-dcommand-2024.05.29p
-echo "Igel Profile: OS11 Imprivata thin client - Custom commands"\ >> /run/logs/final-dcommand-2024.05.29p
-echo "Author: Michael Wood"\ >> /run/logs/final-dcommand-2024.05.29p
-echo $(date +"%Y%m%d_%T")\ >> /run/logs/final-dcommand-2024.05.29p
-echo \ >> /run/logs/final-dcommand-2024.05.29p
-echo " 1. check Imprivata if PIE"\ >> /run/logs/final-dcommand-2024.05.29p
-echo " 2. turn off Wifi radio if LAN network up"\ >> /run/logs/final-dcommand-2024.05.29p
-echo " 3. Workspace idle timeout after 4 hours if not running"\ >> /run/logs/final-dcommand-2024.05.29p
-echo \ >> /run/logs/final-dcommand-2024.05.29p
+echo \ >> /run/logs/final-dcommand-2024.05.29q
+echo "Final Desktop Custom Commands"\ >> /run/logs/final-dcommand-2024.05.29q
+echo "Igel Profile: OS11 Imprivata thin client - Custom commands"\ >> /run/logs/final-dcommand-2024.05.29q
+echo "Author: Michael Wood"\ >> /run/logs/final-dcommand-2024.05.29q
+echo $(date +"%Y%m%d_%T")\ >> /run/logs/final-dcommand-2024.05.29q
+echo \ >> /run/logs/final-dcommand-2024.05.29q
+echo " 1. check Imprivata if PIE"\ >> /run/logs/final-dcommand-2024.05.29q
+echo " 2. turn off Wifi radio if LAN network up"\ >> /run/logs/final-dcommand-2024.05.29q
+echo " 3. Workspace idle timeout after 4 hours if not running"\ >> /run/logs/final-dcommand-2024.05.29q
+echo \ >> /run/logs/final-dcommand-2024.05.29q
 
 for (( ; ; ))
 do
@@ -66,7 +66,7 @@ RUNNING=$(pgrep -u user wfica_orig)
 if [ $RUNNING -gt 0 ]
     then
 	    echo $(date +"%Y%m%d_%T")\n >> /run/logs/workspace-running
-	    rm ./run/workspace-notrunning
+	    rm ./run/logs/workspace-notrunning
     else
 	    echo $(date +"%Y%m%d_%T")\n >> /run/logs/workspace-notrunning
 fi

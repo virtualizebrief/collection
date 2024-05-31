@@ -2,7 +2,7 @@
 USERNAME="myname"
 PASSWORD="mypassword"
 
-sleep 20
+sleep 60
 
 DISPLAY=:0 xdotool type "$USERNAME"
 DISPLAY=:0 xdotool key Tab

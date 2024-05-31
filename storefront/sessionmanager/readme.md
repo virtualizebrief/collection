@@ -1,5 +1,5 @@
 # Session Manager
-This is a companion theme and customized settings for [Citrix Self Service Session Manager](https://github.com/jeremyts/SelfServiceSessionReset). You will need to download the base code and configure the tool first. Then after use the repo here to polish off the theme and features which matches the published Storefront themes.
+This is a companion theme and customized settings for [Citrix Self Service Session Manager](https://github.com/jeremyts/SelfServiceSessionReset). You will need to download the [base code](https://github.com/jeremyts/SelfServiceSessionReset) and configure the tool first. Then after use the repo here to polish off the theme and features which matches the published Storefront themes.
 
 ### Full credit goes to [J House Consulting](https://www.jhouseconsulting.com/jhouseconsulting/2020/08/28/citrix-self-service-session-reset-tool-2106)
 

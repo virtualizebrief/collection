@@ -1,4 +1,4 @@
-for(;;) {
+﻿for(;;) {
 
 # Welcome
 clear-host

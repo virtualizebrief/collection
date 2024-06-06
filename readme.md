@@ -14,7 +14,7 @@ From my days admin VMware Horizon and Workspace ONE.
 
 - `igel` <br>
 [**Igel**](igel/readme.md) <br>
-Profiles for configuring Igel devices. From themes to idle reboot schedules and more.
+Profiles & bash scripts for configuring Igel devices. From themes to idle reboot schedules and more.
 
 - `realprint` <br>
 [**Real print**](realprint/readme.md) <br>

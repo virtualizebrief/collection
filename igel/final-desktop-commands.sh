@@ -14,7 +14,7 @@ echo \ >> /run/logs/final-dcommand-2024.05.29q
 for (( ; ; ))
 do
 
-sleep 240
+sleep 420
 
 # check Imprivata if PIE
 if [ ! -f /run/logs/imprivata-finished ]
@@ -72,7 +72,7 @@ if [ $RUNNING -gt 0 ]
 fi
 
 TIME=$(wc -l < /run/logs/workspace-notrunning)
-if [ $TIME = 60 ]
+if [ $TIME = 35 ]
     then reboot
     else echo $TIME
 fi

@@ -6,6 +6,21 @@ $domain = "MyDomain\"
 $getDate = Get-Date -format "yyyy-MM-dd hh:mm:ss"
 
 
+# Welcome
+
+clear-host
+write-host ""
+write-host "Powertools" -foregroundcolor Cyan
+write-host "Reset Machine if Disconnected User" -foregroundcolor yellow
+write-host ""
+write-host "Will reset machine if:"
+write-host "√ " -foregroundcolor green -nonewline
+write-host "User is in ad group"
+write-host "√ " -foregroundcolor green -nonewline
+write-host "User has disconnected desktop"
+write-host ""
+
+
 # gather info on whos in ad group entitled and who is disconnected. create list of matching names
 
 $bDisconnectedUsers = $null # clear value

@@ -1,10 +1,16 @@
-# Install-Module -Name SqlServer # if doesn't exist
-Import-Module SQLPS -Force
+<#
 
-clear-host
-$sqlServer = "ctx-database02"
-$db = $null
+Quick way to shrink transaction logs on MS SQL Server.
 
+- Checks if backup file exist, if yes delete
+- Performs transaction log backup
+- Performs a shrink transaction log bucket size
+
+#>
+
+# Variables
+$sqlServer = "db-server"
+$backupFile = "C:\Support\Backup\tlog.bak"
 $dbs = @(
 "CitrixBlueLogging",
 "CitrixBlueMonitoring",
@@ -16,12 +22,13 @@ $dbs = @(
 "CitrixWEM",
 "IgelUMS")
 
-foreach ($db in $dbs) {
 
+# Perform the work againest each database
+foreach ($db in $dbs) {
 write-host "Processing $db..."
 
-    If (Test-Path 'C:\Support\Backup\tlog.bak' -PathType Leaf) {Remove-Item -Path 'C:\Support\Backup\tlog.bak' -Force}   
-    Backup-SqlDatabase -ServerInstance $sqlServer -Database $db -BackupAction Log -BackupFile 'C:\Support\Backup\tlog.bak' -Verbose 
+    If (Test-Path $backupFile -PathType Leaf) {Remove-Item -Path $backupFile -Force}   
+    Backup-SqlDatabase -ServerInstance $sqlServer -Database $db -BackupAction Log -BackupFile $backupFile -Verbose 
     Invoke-Sqlcmd -ServerInstance $sqlServer -Query "DBCC SHRINKDATABASE('$db')" -Verbose
 
 }

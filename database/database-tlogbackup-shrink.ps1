@@ -12,16 +12,9 @@ Quick way to shrink transaction logs on MS SQL Server.
 $sqlServer = "db-server"
 $backupFile = "C:\Support\Backup\tlog.bak"
 $dbs = @(
-"CitrixBlueLogging",
-"CitrixBlueMonitoring",
-"CitrixBlueSite",
-"CitrixSessionRecording",
-"CitrixSessionRecordingCloud",
-"CitrixSessionRecordingLogging",
-"CitrixSessionRecordingLoggingCloud",
-"CitrixWEM",
-"IgelUMS")
-
+"database1",
+"database2",
+"database3")
 
 # Perform the work againest each database
 foreach ($db in $dbs) {

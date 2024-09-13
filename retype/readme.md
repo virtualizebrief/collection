@@ -8,7 +8,9 @@ Having also completed this on linux machines and git repositories it is still mo
 # [Retype](https://retype.com)
 Work engine for producing Storehouse. Information on creating pages, components, images, video and more found here: retype components
 
-# :hammer: Deploy
+# Deploy :hammer:
+:page_with_curl: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)
+
 |Feature|Name|Note|
 |:---|:---|:---|
 |Logo|icon-storehouse.png|Copy file to: c:\support\storehouse\site\files|
@@ -16,10 +18,6 @@ Work engine for producing Storehouse. Information on creating pages, components,
 |Storage|c:\support\storehouse\site|Where to put documents, etc.|
 |Wesbite URL|http://localhost:5000 |Should put a cert and configure friendly url in dns.|
 
-# Windows deployment
-:scroll: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)
-
 # Resouces
-:blue_book: [Markdown getting started](https://www.markdownguide.org/getting-started/)
-
-:closed_book: [Retype components](https://retype.com/components/)
+- :blue_book: [Markdown getting started](https://www.markdownguide.org/getting-started/)
+- :closed_book: [Retype components](https://retype.com/components/)

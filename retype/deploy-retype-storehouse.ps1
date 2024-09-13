@@ -105,11 +105,11 @@ links:                        # Custom links to add to the top bar
 # -
 
 footer:
-  copyright: "Made with &hearts; by Sapphire Health" # A custom copyright statement
+  copyright: "Made with &hearts; by Virtualize Brief" # A custom copyright statement
   links:                      # A list of links to include in the footer
                               # See also: links
     # - text: Learn more           # The text to use for the link
-    #   link: https://sapphirehealth.org/about    # Point to an internal file or external URL
+    #   link: https://virtualizebrief.com    # Point to an internal file or external URL
 
 # -
 

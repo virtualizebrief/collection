@@ -1,4 +1,12 @@
-https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.mp4
+https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.webm
+
+:::myborder
+<video controls pause>
+	<source src="
+		https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.webm
+	" type="video/mp4">
+</video>
+:::
 
 # Storehouse
 Documentation website using markdown files. This simple deployment for a windows machine takes you from nothing to up and running in a minute or two.

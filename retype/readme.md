@@ -9,7 +9,7 @@ Having also completed this on linux machines and git repositories it is still mo
 Work engine for producing Storehouse. Information on creating pages, components, images, video and more found here: [retype components](https://retype.com/components/).
 
 # Deploy :hammer:
-:page_with_curl: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)
+Login windows machine and run: :page_with_curl: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)
 
 |Feature|Name|Note|
 |:---|:---|:---|

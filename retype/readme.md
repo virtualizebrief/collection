@@ -19,11 +19,3 @@ Work engine for producing Storehouse. Information on creating pages, components,
 # Resouces
 - :blue_book: [Markdown getting started](https://www.markdownguide.org/getting-started/)
 - :closed_book: [Retype components](https://retype.com/components/)
-
-
-<style>
-td, th {
-   border: none!important;
-}
-</style>
-

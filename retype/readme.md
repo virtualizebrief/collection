@@ -1,4 +1,9 @@
-# Details on retype
+![image](images/icon-storehouse.png)
+
+# Storehouse
+Documentation website using markdown files. This simple deployment for a Windows computer takes you from nothing to up and running in a minute or two.
+
+# Retype
 Work engine for producing Storehouse. Information on creating pages, components, images, video and more found here: retype components
 
 # Deploy

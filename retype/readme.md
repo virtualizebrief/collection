@@ -10,4 +10,4 @@ Work engine for producing Storehouse. Information on creating pages, components,
 |Wesbite URL|http://localhost:5000 |Should put a cert and configure friendly url in dns.|
 
 # Windows deployment code
-[file](link.html)
+[deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)

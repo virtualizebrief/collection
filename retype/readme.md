@@ -1,3 +1,5 @@
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/TPXbp5aJ64Q/0.jpg)](http://www.youtube.com/watch?v=TPXbp5aJ64Q "Build a Seflf Hosted Markdown Documentation Site with Retype (one click code)")
+
 ![](images/storehouse-banner.png)
 ---
 Documentation website using markdown files. This simple deployment for a windows machine takes you from nothing to up and running in a minute or two.
@@ -17,6 +19,6 @@ Login windows machine and run: [deploy-retype-storehouse.ps1](deploy-retype-stor
 |Storage|c:\support\storehouse\site|Where to put documents, etc.|
 |Wesbite URL|http://localhost:5000 |Should put a cert and configure friendly url in dns.|
 
-# Resouces
+# Resources
 - :blue_book: [Markdown getting started](https://www.markdownguide.org/getting-started/)
 - :closed_book: [Retype components](https://retype.com/components/)

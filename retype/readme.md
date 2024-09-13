@@ -6,7 +6,7 @@ Documentation website using markdown files. This simple deployment for a windows
 Having also completed this on linux machines and git repositories it is still most common in the IT world for others to gravitate towards windows machines. Thus we seek to meet people where they are.
 
 # Retype
-Work engine for producing Storehouse. Information on creating pages, components, images, video and more found here: Retype components](https://retype.com/components/).
+Work engine for producing Storehouse. Information on creating pages, components, images, video and more found here: [retype components](https://retype.com/components/).
 
 # Deploy :hammer:
 :page_with_curl: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)

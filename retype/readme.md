@@ -1,5 +1,3 @@
-https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.webm
-
 [![Watch the video](https://woodcloud.one/files/video-player.jpg)](https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.mp4)
 
 # Storehouse

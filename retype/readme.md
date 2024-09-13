@@ -1,4 +1,5 @@
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/TPXbp5aJ64Q/0.jpg)](http://www.youtube.com/watch?v=TPXbp5aJ64Q "Build a Seflf Hosted Markdown Documentation Site with Retype (one click code)")
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/TPXbp5aJ64Q/0.jpg)](http://www.youtube.com/watch?v=TPXbp5aJ64Q "Build a Self Hosted Markdown Documentation Site with Retype (one click code)")
+Youtube video: Build a Self Hosted Markdown Documentation Site with Retype (one click code)
 
 ![](images/storehouse-banner.png)
 ---

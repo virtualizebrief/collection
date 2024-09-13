@@ -1,7 +1,9 @@
 ![image](images/icon-storehouse.png)
 
 # Storehouse
-Documentation website using markdown files. This simple deployment for a Windows computer takes you from nothing to up and running in a minute or two.
+Documentation website using markdown files. This simple deployment for a windows machine takes you from nothing to up and running in a minute or two.
+
+Having also completed this on linux machines and git repositories it is still most common in the IT world for others to gravitate towards windows machines. Thus we seek to meet people where they are.
 
 # Retype
 Work engine for producing Storehouse. Information on creating pages, components, images, video and more found here: retype components

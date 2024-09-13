@@ -17,8 +17,8 @@ Work engine for producing Storehouse. Information on creating pages, components,
 |Wesbite URL|http://localhost:5000 |Should put a cert and configure friendly url in dns.|
 
 # Windows deployment
-- :icon-code-square: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)
+- :scroll: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)
 
 # Resouces
-- :icon-command-palette: [Markdown getting started](https://www.markdownguide.org/getting-started/)
-- :icon-checklist: [Retype components](https://retype.com/components/)
+- :blue_book: [Markdown getting started](https://www.markdownguide.org/getting-started/)
+- :notebook_with_decorative_cover: [Retype components](https://retype.com/components/)

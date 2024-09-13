@@ -1,6 +1,7 @@
 [![Watch the video](https://woodcloud.one/files/video-player.jpg)](https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.mp4)
 
 # Storehouse
+![](images/storehouse-banner.png)
 Documentation website using markdown files. This simple deployment for a windows machine takes you from nothing to up and running in a minute or two.
 
 Having also completed this on linux machines and git repositories it is still most common in the IT world for others to gravitate towards windows machines. Thus we seek to meet people where they are.

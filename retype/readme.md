@@ -1,6 +1,6 @@
-![image](images/icon-storehouse.png)
 
-# Storehouse
+
+# ![image](images/icon-storehouse.png) Storehouse
 Documentation website using markdown files. This simple deployment for a windows machine takes you from nothing to up and running in a minute or two.
 
 Having also completed this on linux machines and git repositories it is still most common in the IT world for others to gravitate towards windows machines. Thus we seek to meet people where they are.
@@ -8,7 +8,7 @@ Having also completed this on linux machines and git repositories it is still mo
 # [Retype](https://retype.com)
 Work engine for producing Storehouse. Information on creating pages, components, images, video and more found here: retype components
 
-# Deploy
+# :hammer: Deploy
 |Feature|Name|Note|
 |:---|:---|:---|
 |Logo|icon-storehouse.png|Copy file to: c:\support\storehouse\site\files|
@@ -17,8 +17,8 @@ Work engine for producing Storehouse. Information on creating pages, components,
 |Wesbite URL|http://localhost:5000 |Should put a cert and configure friendly url in dns.|
 
 # Windows deployment
-- :scroll: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)
+:scroll: [deploy-retype-storehouse.ps1](deploy-retype-storehouse.ps1)
 
 # Resouces
-- :blue_book: [Markdown getting started](https://www.markdownguide.org/getting-started/)
-- :notebook_with_decorative_cover: [Retype components](https://retype.com/components/)
+:blue_book: [Markdown getting started](https://www.markdownguide.org/getting-started/)
+:closed_book: [Retype components](https://retype.com/components/)

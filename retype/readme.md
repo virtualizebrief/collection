@@ -1,6 +1,6 @@
 https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.webm
 
-[![Watch the video](images/icon-storehouse.png)](https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.mp4)
+[![Watch the video](https://www.freepnglogos.com/uploads/youtube-play-button-png/youtube-play-button-file-youtube-play-buttom-dark-icon-svg-wikimedia-commons-13.png)](https://woodcloud.one/files/sapphire-storehouse-deploy-1080p.mp4)
 
 # Storehouse
 Documentation website using markdown files. This simple deployment for a windows machine takes you from nothing to up and running in a minute or two.

@@ -1,6 +1,6 @@
 |[![IMAGE ALT TEXT](https://resize.indiatvnews.com/en/resize/newbucket/400_-/2020/02/youtube-1580726342.jpg)](http://www.youtube.com/watch?v=TPXbp5aJ64Q "Build a Self Hosted Markdown Documentation Site with Retype (one click code)")|
 | :---: |
-|Virtualize Brief on :tv: Youtube. Deploying Storehouse step-by-step|
+|Virtualize Brief on :tv: Youtube. Storehouse step-by-step|
 
 
 ![](images/storehouse-banner.png)

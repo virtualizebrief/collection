@@ -1,4 +1,4 @@
-|[![IMAGE ALT TEXT](http://img.youtube.com/vi/TPXbp5aJ64Q/1.jpg)](http://www.youtube.com/watch?v=TPXbp5aJ64Q "Build a Self Hosted Markdown Documentation Site with Retype (one click code)")|
+|[![IMAGE ALT TEXT](http://img.youtube.com/vi/TPXbp5aJ64Q/2.jpg)](http://www.youtube.com/watch?v=TPXbp5aJ64Q "Build a Self Hosted Markdown Documentation Site with Retype (one click code)")|
 | :---: |
 |Virtualize Brief on :tv: Youtube. Deploying Storehouse step-by-step|
 

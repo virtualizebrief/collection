@@ -1,0 +1,1 @@
+powershell.exe -ExecutionPolicy Bypass .\start.ps1

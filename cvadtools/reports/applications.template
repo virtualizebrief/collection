@@ -1,0 +1,35 @@
+---
+icon: apps
+---
+
+# Applications
+
+!!!success Last updated replaceDate
+This report is updated once an hour or around that often. Time zone is central.
+!!!
+
+#### Citrix sites
+
+==- Blue Apps countBlue
+
+{.compact}
+Name | AD group(s)
+:--- | :--- | end of Blue report
+
+
+==- Cloud Apps countCloud
+
+{.compact}
+Name | AD group(s)
+:--- | :--- | end of Cloud report
+
+
+==- Legacy Apps countLegacy
+
+{.compact}
+Name | AD group(s)
+:--- | :--- | end of Legacy report
+
+
+===
+

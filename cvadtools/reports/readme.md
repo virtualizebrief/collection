@@ -6,7 +6,7 @@ Each report generates a markdown file which is then to be copied to a documentat
 
 # Reports
 
-- reportmd-machinecatalog-vm-snapshot
+### reportmd-machinecatalog-vm-snapshot
 
 | Machine Catalog | VM | Snapshot |
 | --- | --- | --- |

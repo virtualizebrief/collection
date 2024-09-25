@@ -22,6 +22,3 @@ Each report generates a markdown file which is then to be copied to a documentat
 | --- | --- | --- |
 |Catalog1-DC1 | Machine1 | 2024.09.25a |
 
-### [get-entitlements-adgroup.ps1](get-entitlements-adgroup.ps1)
-
-Powershell prompt to enter ad group and list all applications entitled to that group.

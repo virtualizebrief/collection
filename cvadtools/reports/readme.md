@@ -6,7 +6,11 @@ Each report generates a markdown file which is then to be copied to a documentat
 
 # Reports
 
-### reportmd-machinecatalog-vm-snapshot
+!!!
+Take note of the accompanying .template file which is used in creating the markdown. This companion file could be incorporated into powershell to make it portable single file.
+!!!
+
+### [reportmd-machinecatalog-vm-snapshot.ps1]
 
 | Machine Catalog | VM | Snapshot |
 | --- | --- | --- |

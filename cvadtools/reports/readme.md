@@ -16,7 +16,7 @@ Each report generates a markdown file which is then to be copied to a documentat
 > [!TIP]
 > Take note of the accompanying .template file which is used in creating the markdown. This companion file could be incorporated into powershell to make it a portable single file.
 
-### [reportmd-machinecatalog-vm-snapshot.ps1](reportmd-machinecatalog-vm-snapshot.ps1)
+# [reportmd-machinecatalog-vm-snapshot.ps1](reportmd-machinecatalog-vm-snapshot.ps1)
 
 Markdown template file: [golden-images.template](golden-images.template)
 

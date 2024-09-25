@@ -1,6 +1,6 @@
-# About Citrix reports
+_Scripts to generate reports from Citrix site related things._
 
-Scripts to generate reports from Citrix site related things.
+# About Citrix reports
 
 Each report generates a markdown file which is then to be copied to a documentation site that provides for clean and friendly way for others to digest the information. We use [Storehouse](https://github.com/virtualizebrief/collection/tree/main/retype), a custom deployoment of retype but you can use any markdown site or reader you enjoy.
 

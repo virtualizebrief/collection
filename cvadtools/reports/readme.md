@@ -6,10 +6,10 @@ Each report generates a markdown file which is then to be copied to a documentat
 
 Example doc sites using markdown
 
-- [Docsify](https://docsify.org)
-- [Docusaurus](https://docusaurus.io/)
-- [Gitbook](https://gitbook.com)
-- [MkDocs](https://mkdocs.org)
+- [x] [Docsify](https://docsify.org)
+- [x] [Docusaurus](https://docusaurus.io/)
+- [x] [Gitbook](https://gitbook.com)
+- [x] [MkDocs](https://mkdocs.org)
 
 # Reports
 

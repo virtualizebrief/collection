@@ -1,3 +1,10 @@
+<div style="background-color: #00d5a0; color: #ffffff; padding: 16px 24px;">
+ <div style="font-size: 16px; font-weight: bold;"> Favoriting Cards or Folders and Creating Favorite Card Lists in Guru ⚡️</div>
+ <div style="font-size: 12px; font-weight: bold; color:#000000;">
+Favoriting in Guru allows you to access your most useful Cards and Folders quickly, and you can filter for your Favorites to easily find them. You can organize favorited Cards and curate your knowledge into easily accessible and searchable lists, regardless of Folder or Collection.
+ </div>
+</div>
+
 _Scripts to generate reports from Citrix site related things._
 
 # About Citrix reports

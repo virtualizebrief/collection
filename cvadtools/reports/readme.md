@@ -7,7 +7,7 @@ Each report generates a markdown file which is then to be copied to a documentat
 # Reports
 
 - reportmd-machinecatalog-vm-snapshot
-{.compact}
-Machine Catalog | VM | Snapshot
+
+|Machine Catalog | VM | Snapshot
 :--- | :--- | :--- | end of Golden Image report
-Catalog1-DC1 | Machine1 | 2024.09.25a
+|Catalog1-DC1 | Machine1 | 2024.09.25a

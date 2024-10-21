@@ -17,5 +17,5 @@ New things maybe added at anytime. Check the powertools app itself to see whats 
 
 |Tool|Description|
 |:---|:---|
-|Session Manger|See and fix busted Citrix sessions for a user|
+|Session Manger|See and fix busted Citrix sessions for a user <br> ![screenshot](session-manager-01.png)|
 |Blank|Ready for your custom thing|

@@ -116,9 +116,9 @@ If ($sessionKill -like "*a*") {
     write-host " √ " -foregroundcolor green -nonewline
     write-host "hide"
     
-    $sessiontype = (Get-BrokerSession -AdminAddress $siteBlue -UserName $User -SessionKey $Uid).sessionsupport
+    $sessiontype = (Get-BrokerSession -AdminAddress $siteA -UserName $User -SessionKey $Uid).sessionsupport
     If ($sessiontype -eq "SingleSession") {
-        $resetmachine = (Get-BrokerSession -AdminAddress $siteBlue -UserName $User -SessionKey $Uid).MachineName
+        $resetmachine = (Get-BrokerSession -AdminAddress $siteA -UserName $User -SessionKey $Uid).MachineName
         $try = New-BrokerHostingPowerAction -MachineName $resetmachine -Action Reset
         start-sleep -s 2
         write-host " √ " -foregroundcolor green -nonewline
@@ -161,9 +161,9 @@ If ($sessionKill -like "*b*") {
     write-host " √ " -foregroundcolor green -nonewline
     write-host "hide"
     
-    $sessiontype = (Get-BrokerSession -AdminAddress $siteBlue -UserName $User -SessionKey $Uid).sessionsupport
+    $sessiontype = (Get-BrokerSession -AdminAddress $siteB -UserName $User -SessionKey $Uid).sessionsupport
     If ($sessiontype -eq "SingleSession") {
-        $resetmachine = (Get-BrokerSession -AdminAddress $siteBlue -UserName $User -SessionKey $Uid).MachineName
+        $resetmachine = (Get-BrokerSession -AdminAddress $siteB -UserName $User -SessionKey $Uid).MachineName
         $try = New-BrokerHostingPowerAction -MachineName $resetmachine -Action Reset
         start-sleep -s 2
         write-host " √ " -foregroundcolor green -nonewline

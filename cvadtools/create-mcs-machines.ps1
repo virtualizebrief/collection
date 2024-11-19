@@ -9,7 +9,7 @@ $mcUID = (get-brokercatalog -name $mc).uid
 
 # create new accounts and get new machine names
 New-AcctADAccount -IdentityPoolName $mc -Count $count
-$NewAccounts = (Get-AcctADAccount -IdentityPoolName $mc | Where-Object { $_.State -eq "Available" }).ADAccountName | Sort-Object
+$NewAccounts = (Get-AcctADAccount -IdentityPoolName $mc | Where-Object {$_.State -eq "Available"}).ADAccountName | Sort-Object
 $NewMachines = $NewAccounts.Replace('$','')
 
 # create machine, add to machine catalog, add to delivery group, power on

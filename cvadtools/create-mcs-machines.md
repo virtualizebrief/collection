@@ -21,6 +21,6 @@ Works with both Cloud & On-Prem sites, simpatico. For good measure you do need C
 Screen shot of successful script run and creation of 10 VMs. Now 10 machines are registred in a delivery group and available for connection.
 
 > [!Warning]
-> Notice the failure of attempts on creating machines. This happens and is a known thing. As long as machine creation is successful by the 5th attempt your good. Have yet to see this fail 5 times in a row.
+> Notice the failure of attempts on creating machines. This happens and is a known thing. As long as machine creation is successful by the 5th attempt your good. Have yet to see this fail 5 times.
 
 ![screen-output](https://github.com/virtualizebrief/collection/blob/main/cvadtools/create-mcs-machines.png)

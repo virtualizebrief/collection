@@ -1,5 +1,5 @@
 > [!Note]
-> I admit code could be cleaner, yet gets the job done and might help understand whats going on more.
+> Code could be cleaner, yet gets the job done and might help understand whats going on more.
 
 # Citrix MCS Machine Creator
 - [create-mcs-machines.ps1](https://github.com/virtualizebrief/collection/blob/main/cvadtools/create-mcs-machines.ps1)

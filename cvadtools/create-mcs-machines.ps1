@@ -1,20 +1,23 @@
 <#
 
-Author: Michael Wood
-Website: virtualizebrief.com
-Date: 2024.11.22
-Notes: I admit code could be cleaner, yet gets the job done and might help understand whats going on more.
+---
+title: Citrix MCS Machine Creator
+author: Michael Wood
+date: 2024.11.22
+link: virtualizebrief.com
+avatar: https://avatars.githubusercontent.com/u/153381859
+---
 
-Citrix MCS Machine Creator
+# Citrix MCS Machine Creator
 Works with both Cloud & On-Prem sites, simpatico. For good measure you do need Citrix Studio (for on-prem site) or Citrix PoshSDK (for cloud site)
 
-Prerequisites
+# Prerequisites
 - Run from Windows machine as AD User with permissions to add Computer Objects
 - Machine Catalog
 - Delivery Group
 - Powershell must have ADUC commands
 
-What happens?
+# What happens?
 - Creates machine account(s) (active directory)
 - Creates machine(s) (real VMs on hypervisor)
 - Add machine(s) to machine catalog

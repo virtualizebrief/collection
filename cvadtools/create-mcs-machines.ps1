@@ -2,7 +2,8 @@
 
 Author: Michael Wood
 Website: virtualizebrief.com
-Date: 2024.11.21
+Date: 2024.11.22
+Notes: I admit code could be cleaner, yet gets the job done and might help understand whats going on more.
 
 Citrix MCS Machine Creator
 

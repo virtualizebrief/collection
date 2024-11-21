@@ -4,7 +4,7 @@
 # Citrix MCS Machine Creator
 - [create-mcs-machines.ps1](https://github.com/virtualizebrief/collection/blob/main/cvadtools/create-mcs-machines.ps1)
 
-Works with both Cloud & On-Prem sites, simpatico. For good measure you do need Citrix Studio (for on-prem site) or Citrix PoshSDK (for cloud site)
+Works with both Cloud & On-Prem sites, simpatico. For good measure you do need Citrix Studio (for on-prem site) or Citrix PoshSDK (for cloud site).
 
 # Prerequisites
 - Run from Windows machine as AD User with permissions to add Computer Objects

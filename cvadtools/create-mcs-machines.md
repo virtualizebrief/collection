@@ -8,13 +8,13 @@ Works with both Cloud & On-Prem sites, simpatico. For good measure you do need C
 
 # Prerequisites
 - Run from Windows machine as AD User with permissions to add Computer Objects
+- Powershell must have ADUC commands
 - Machine Catalog
 - Delivery Group
-- Powershell must have ADUC commands
 
 # What happens?
-- Creates machine account(s) (active directory)
-- Creates machine(s) (real VMs on hypervisor)
+- Creates machine account(s) for active directory
+- Creates machine(s) on hypervisor
 - Add machine(s) to machine catalog
 - Add machine(s) to delivery group
 - powers on machine(s)

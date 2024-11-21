@@ -11,6 +11,13 @@ Prerequisites
 - Delivery Group
 - Powershell must have ADUC commands
 
+What happens?
+- Creates machine account(s) (active directory)
+- Creates machine(s) (real VMs on hypervisor)
+- Add machine(s) to machine catalog
+- Add machine(s) to delivery group
+- powers on machine(s)
+
 #>
 
 # set values

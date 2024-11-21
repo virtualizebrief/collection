@@ -17,6 +17,5 @@ Works with both Cloud & On-Prem sites, simpatico. For good measure you do need C
 - Add machine(s) to delivery group
 - powers on machine(s)
 
-### Results
-
+# Results
 ![screen-output](https://github.com/virtualizebrief/collection/blob/main/cvadtools/create-mcs-machines.png)

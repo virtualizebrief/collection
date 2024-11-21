@@ -19,6 +19,17 @@ $dg = 'delivery-group'
 $count = '#' # how many you want
 
 
+# welcome banner
+clear-host ""
+write-host "Citrix MCS Machine Creator" -foregroundcolor white
+write-host ""
+write-host "# Selections" -foregroundcolor cyan
+write-host "- machine catalog: $mc"
+write-host "- delivery group: $dg"
+write-host "- new machines: $count"
+write-host ""
+
+
 # get values for machine catalog and scheme
 $psUID = (Get-ProvScheme -ProvisioningSchemeName $mc).ProvisioningSchemeUid
 $mcUID = (get-brokercatalog -name $mc).uid

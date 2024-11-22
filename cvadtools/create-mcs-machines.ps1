@@ -26,6 +26,7 @@ Works with both Cloud & On-Prem sites, simpatico. For good measure you do need C
 
 #>
 
+
 # set values
 $mc = 'machine-catalog'
 $dg = 'delivery-group'

@@ -26,143 +26,145 @@ Works with both Cloud & On-Prem sites, simpatico. For good measure you do need C
 
 #>
 
+function timer {
+$duration = 300
+$endTime = (Get-Date).AddSeconds($duration)
+while ((Get-Date) -lt $endTime) {
+    # Calculate the percentage complete
+    $percentComplete = 100 - [int](((($endTime - (Get-Date)).TotalSeconds) / $duration) * 100)
+
+    # Display the progress bar
+    Write-Progress -Activity "Pausing for AD Accounts to register" -Status "Time remaining: $((($endTime - (Get-Date)).TotalSeconds).ToString('F0')) seconds" -PercentComplete $percentComplete
+
+    # Sleep for 1 second
+    Start-Sleep -Seconds 1
+    }
+}
+
+clear-host
 
 # set values
-$mc = 'machine-catalog'
-$dg = 'delivery-group'
-$count = '#' # how many you want
+$mc = 'LCMCDesktop-E'
+$dg = 'LCMC Desktop AWS'
+$count = '10'
 
-
-# welcome banner
-clear-host ""
-write-host "Citrix MCS Machine Creator" -foregroundcolor white
-write-host ""
-write-host "# Selections" -foregroundcolor cyan
-write-host "- machine catalog: $mc"
-write-host "- delivery group: $dg"
-write-host "- new machines: $count"
-write-host ""
-
-
-# get values for machine catalog and scheme
-$psUID = (Get-ProvScheme -ProvisioningSchemeName $mc).ProvisioningSchemeUid
+# get values for machine catalog, scheme & remove unused accounts
+$psUID = ((Get-ProvScheme -ProvisioningSchemeName $mc).ProvisioningSchemeUid).Guid
 $mcUID = (get-brokercatalog -name $mc).uid
-$AlreadyCount = (Get-AcctADAccount -IdentityPoolName $mc | Where-Object { $_.State -eq "Available" }).count
-
+$ExtraAccounts = (Get-AcctADAccount -IdentityPoolName $mc | Where-Object { $_.State -eq "Available" }).ADAcountSid
+foreach ($ExtraAccount in $ExtraAccounts) {Remove-AcctADAccount -IdentityPoolName $mc -ADAccountSid $ExtraAccount}
 
 # create new accounts
-write-host "# Create $count accounts | use $AlreadyCount already available" -foregroundcolor cyan
-$SendtoNull = New-AcctADAccount -IdentityPoolName $mc -Count $count
-$NewAccounts = (Get-AcctADAccount -IdentityPoolName $mc | Where-Object { $_.State -eq "Available" }).ADAccountName | Sort-Object
+    write-host "# New machines" -ForegroundColor cyan
+$NewAccounts = ((New-AcctADAccount -IdentityPoolName $mc -Count $count).SuccessfulAccounts).ADAccountName
 $NewMachines = $NewAccounts.Replace('$','')
-$Domain = $NewMachine -replace "\\.*$"
 $NewMachines
-write-host "Resting for 5 seconds..." -ForegroundColor Magenta
-write-host ""
-start-sleep -s 5 # let things marinate
+$Domains = $NewMachines -replace "\\.*$"
+$Domain = $Domains | Select-Object -First 1
+    write-host ""
 
+timer
 
 # create machines
-write-host "# Create machine | tries up to 5x then gives up" -foregroundcolor Cyan
-ForEach ($NewMachine in $NewMachines) {
+    write-host "# Attempt 1 of 3" -ForegroundColor cyan
+$taskId = (New-ProvVM -ADAccountName $NewMachines -ProvisioningSchemeUid $psUID).taskId
 
-    $NewMachineNoDomain = $NewMachine.Replace("$Domain\","")
-    $NewMachineSid = ((get-adcomputer $NewMachineNoDomain).sid).value
-    $NewMachineAccount = Get-AcctADAccount -IdentityPoolName $mc -ADAccountSid $NewMachineSid
+    write-host "Created machines: " -ForegroundColor green -NoNewline
+$CreatedVMs = $null #empty value to start with
+$CreatedVMs = ((Get-ProvTask -TaskID $taskId).CreatedVirtualMachines).VMName
+    ($CreatedVMs).count
+    write-host "Failed machines : " -ForegroundColor red -NoNewline
+$FailedVMs = $null #empty value to start with
+$FailedVMs = ((Get-ProvTask -TaskID $taskId).FailedVirtualMachines).VMName
+    ($FailedVMs).count
 
-    If ($NewMachineAccount -eq $null) {
-        write-host "$NewMachine" -NoNewline -foregroundcolor Yellow
-        write-host "..." -NoNewline
-        write-host "Machine account does not exist!" -ForegroundColor Red
-        }
-    Else {
-        write-host "$NewMachine" -NoNewline
-        write-host "..." -NoNewline
-        $try1 = $null
-        $try1 = New-ProvVM -ADAccountName $NewMachine -ProvisioningSchemeUid $psUID
-        If ((($try1).TaskState) -eq "FinishedWithErrors") {write-host "1st failed." -nonewline -foregroundcolor red
-        $try2 = $null
-        $try2 = New-ProvVM -ADAccountName $NewMachine -ProvisioningSchemeUid $psUID
-        }
-        If ((($try2).TaskState) -eq "FinishedWithErrors") {write-host "2st failed." -nonewline -foregroundcolor red
-        $try3 = $null
-        $try3 = New-ProvVM -ADAccountName $NewMachine -ProvisioningSchemeUid $psUID
-        }
-        If ((($try3).TaskState) -eq "FinishedWithErrors") {write-host "3st failed." -nonewline -foregroundcolor red
-        $try4 = $null
-        $try4 = New-ProvVM -ADAccountName $NewMachine -ProvisioningSchemeUid $psUID
-        }
-        If ((($try4).TaskState) -eq "FinishedWithErrors") {write-host "4st failed." -nonewline -foregroundcolor red
-        $try5 = $null
-        $try5 = New-ProvVM -ADAccountName $NewMachine -ProvisioningSchemeUid $psUID
-        }
-        If ((($try5).TaskState) -eq "FinishedWithErrors") {Write-host "5th giving up! " -nonewline -ForegroundColor red
-        }
-        write-host "done!" -foregroundcolor green
+If ($CreatedVMs -eq $null) {}
+Else { 
+
+# add to machine catalog, delivery group, power on
+foreach ($CreatedVM in $CreatedVMs) {
+    $CreatedVMNoDomain = $CreatedVM.Replace("$Domain\","")
+    $CreatedVMSid = ((get-adcomputer $CreatedVMNoDomain).sid).value 
+    $CreatedVMAccount = Get-AcctADAccount -IdentityPoolName $mc -ADAccountSid $CreatedVMSid
+    $SendtoNull = New-BrokerMachine -CatalogUid $mcUID -MachineName $CreatedVMSid
+    $SendtoNull = Add-BrokerMachine -MachineName $CreatedVMSid -DesktopGroup $dg
+    $SendtoNull = New-BrokerHostingPowerAction -MachineName $CreatedVMSid -Action TurnOn
     }
-    start-sleep -s 2
+}
+
+if ((($FailedVMs).count) -gt 0) {
+
+#-Second try
+timer
+    write-host ""
+
+# create machines that failed, one more try!
+    write-host "# Attempt 2 of 3" -ForegroundColor cyan
+$FailedDomainVMs = $FailedVMs | ForEach-Object { "LCMCHEALTH\" + $_ }
+$taskId = (New-ProvVM -ADAccountName $FailedDomainVMs -ProvisioningSchemeUid $psUID).taskId
+
+    write-host "Created machines: " -ForegroundColor green -NoNewline
+$CreatedVMs = $null #empty value to start with
+$CreatedVMs = ((Get-ProvTask -TaskID $taskId).CreatedVirtualMachines).VMName
+    ($CreatedVMs).count
+
+    write-host "Failed machines : " -ForegroundColor red -NoNewline
+$FailedVMs = $null #empty value to start with
+$FailedVMs = ((Get-ProvTask -TaskID $taskId).FailedVirtualMachines).VMName
+    ($FailedVMs).count
+
+If ($CreatedVMs -eq $null) {}
+Else { 
+
+# add to machine catalog, delivery group, power on
+foreach ($CreatedVM in $CreatedVMs) {
+    $CreatedVMNoDomain = $CreatedVM.Replace("$Domain\","")
+    $CreatedVMSid = ((get-adcomputer $CreatedVMNoDomain).sid).value 
+    $CreatedVMAccount = Get-AcctADAccount -IdentityPoolName $mc -ADAccountSid $CreatedVMSid
+    $SendtoNull = New-BrokerMachine -CatalogUid $mcUID -MachineName $CreatedVMSid
+    $SendtoNull = Add-BrokerMachine -MachineName $CreatedVMSid -DesktopGroup $dg
+    $SendtoNull = New-BrokerHostingPowerAction -MachineName $CreatedVMSid -Action TurnOn
+    }
+}
 
 }
-write-host "Resting for 5 seconds..." -ForegroundColor Magenta
-write-host ""
-start-sleep -s 5 # let things marinate
 
+if ((($FailedVMs).count) -gt 0) {
+#-Third try
+timer
+    write-host ""
 
-# add machine to machine-catalog
-write-host "# Add machine to machine catalog" -foregroundcolor Cyan
-ForEach ($NewMachine in $NewMachines) {
+# create machines that failed, one more try!
+    write-host "# Attempt 3 of 3" -ForegroundColor cyan
+$FailedDomainVMs = $FailedVMs | ForEach-Object { "LCMCHEALTH\" + $_ }
+$taskId = (New-ProvVM -ADAccountName $FailedDomainVMs -ProvisioningSchemeUid $psUID).taskId
 
-    $NewMachineNoDomain = $NewMachine.Replace("$Domain\","")
-    $NewMachineSid = ((get-adcomputer $NewMachineNoDomain).sid).value
-    $NewMachineAccount = Get-AcctADAccount -IdentityPoolName $mc -ADAccountSid $NewMachineSid
+    write-host "Created machines: " -ForegroundColor green -NoNewline
+$CreatedVMs = $null #empty value to start with
+$CreatedVMs = ((Get-ProvTask -TaskID $taskId).CreatedVirtualMachines).VMName
+    ($CreatedVMs).count
 
-    If ($NewMachineAccount -eq $null) {
-        write-host "$NewMachine" -NoNewline
-        write-host "..." -NoNewline
-        write-host "Machine account does not exist!" -ForegroundColor Red
-        }
-    Else {
-        write-host "$NewMachine" -NoNewline
-        write-host "..." -NoNewline
+    write-host "Failed machines : " -ForegroundColor red -NoNewline
+$FailedVMs = $null #empty value to start with
+$FailedVMs = ((Get-ProvTask -TaskID $taskId).FailedVirtualMachines).VMName
+    ($FailedVMs).count
+    write-host ""
 
-            $Null = New-BrokerMachine -CatalogUid $mcUID -MachineName $NewMachine
+If ($CreatedVMs -eq $null) {}
+Else { 
 
-        write-host "done!" -ForegroundColor green
+# add to machine catalog, delivery group, power on
+foreach ($CreatedVM in $CreatedVMs) {
+    $CreatedVMNoDomain = $CreatedVM.Replace("$Domain\","")
+    $CreatedVMSid = ((get-adcomputer $CreatedVMNoDomain).sid).value 
+    $CreatedVMAccount = Get-AcctADAccount -IdentityPoolName $mc -ADAccountSid $CreatedVMSid
+    $SendtoNull = New-BrokerMachine -CatalogUid $mcUID -MachineName $CreatedVMSid
+    $SendtoNull = Add-BrokerMachine -MachineName $CreatedVMSid -DesktopGroup $dg
+    $SendtoNull = New-BrokerHostingPowerAction -MachineName $CreatedVMSid -Action TurnOn
     }
-    start-sleep -s 2
+}
 
-    }
-write-host "Resting for 5 seconds..." -ForegroundColor Magenta
-write-host ""
-start-sleep -s 5 # let things marinate
-
-
-# add to delivery group, power on
-write-host "# Add to delivery group & turn on" -foregroundcolor Cyan
-ForEach ($NewMachine in $NewMachines) {
-
-    $NewMachineNoDomain = $NewMachine.Replace("$Domain\","")
-    $NewMachineSid = ((get-adcomputer $NewMachineNoDomain).sid).value
-    $NewMachineAccount = Get-AcctADAccount -IdentityPoolName $mc -ADAccountSid $NewMachineSid
-
-    If ($NewMachineAccount -eq $null) {
-        write-host "$NewMachine" -NoNewline
-        write-host "..." -NoNewline
-        write-host "Machine account does not exist!" -ForegroundColor Red
-        }
-    Else {
-        write-host "$NewMachine" -NoNewline
-        write-host "..." -NoNewline
-
-            $Null = Add-BrokerMachine -MachineName $NewMachineSid -DesktopGroup $dg
-            start-sleep -s 2
-            $Null = New-BrokerHostingPowerAction -MachineName $NewMachineSid -Action TurnOn
-
-        }
-    start-sleep -s 2
-    write-host "done!" -ForegroundColor green
-
-    }
+}
 
 write-host ""
 pause

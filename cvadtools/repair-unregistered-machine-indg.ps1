@@ -8,6 +8,7 @@ date: 2025.01.16
 
 # variables
 $deliveryGroup = "your-dg"
+$domain = "your-domain\"
 $service = "Citrix Desktop Service"
 $logDate = Get-Date -format "yyyyMMdd_hhmmss"
 $logFile = "c:\support\repair-unregistered-machines-$logDate.log"
@@ -25,7 +26,7 @@ while ($true) {
 
         if ($registeredState -eq "unregistered") {
 
-            Get-Service -DisplayName $service -ComputerName $machine.replace("LCMCHEALTH\","") | Restart-Service
+            Get-Service -DisplayName $service -ComputerName $machine.replace($domain,"") | Restart-Service
             Add-Content -Path $LogFile -Value "$getDate $machine | $registeredState | service restarted"
 
         }

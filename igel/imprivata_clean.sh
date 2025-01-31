@@ -9,7 +9,6 @@ then
 else
 	echo $(date +"%Y%m%d_%T")\n >>  /run/Imprivata_BootCheck_FileNo.log
 	ImprivataBootstrap -w
-	ImprivataBootstrap
 	reboot
 fi
 

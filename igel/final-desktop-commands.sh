@@ -27,7 +27,6 @@ if [ ! -f /run/logs/imprivata-finished ]
             else
                 echo $(date +"%Y%m%d_%T")\n >>  /run/logs/imprivata-missing
                 ImprivataBootstrap -w
-                ImprivataBootstrap
                 echo $(date +"%Y%m%d_%T")\n >> /run/logs/imprivata-finished
                 reboot
         fi

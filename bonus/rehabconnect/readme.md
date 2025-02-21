@@ -1,6 +1,6 @@
 # RehabConnect custom launcher
 > [!TIP]
-> Designed for use with Citrix Virtual Apps & Desktops. Though can work for other delivery methods also. Create a shortcut off the .bat file and launch from anywhere.
+> Designed for use with Citrix Virtual Apps & Desktops. Though can work for other delivery methods: create a shortcut off the .bat file and launch from anywhere.
 
 
 Each time a user launches RehabConnect the following will happen:
@@ -12,7 +12,7 @@ Each time a user launches RehabConnect the following will happen:
 - Run RehabConnect & close message window
 
 # Launcher files
-Find a unc path or network location to put the files in a folder named something like `RehabConnect`. Edit each file to put in your unc path.
+Find a unc path or network location to put the files in a folder named `RehabConnect`. Edit each file to put in your unc path.
 
 - launcher-rehabconnect.bat
 - launcher-rehabconnect.ps1

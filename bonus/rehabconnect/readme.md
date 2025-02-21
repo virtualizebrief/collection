@@ -12,10 +12,12 @@ Each time a user launches RehabConnect the following will happen:
 - Run RehabConnect & close message window
 
 # Launcher files
-Find a unc path or network location to put the files in a folder named `RehabConnect`. Edit each file to put in your unc path.
+Find a unc path or network location to put the files in a folder named `RehabConnect`. 
 
 - launcher-rehabconnect.bat
 - launcher-rehabconnect.ps1
+
+Edit bat file to put in your path. Edit ps1 in `# You configure these` settings.
 
 # Download RehabConnect
 [RehabConnect downloader](https://npc-prodoc.udsmr.org/NTST_LCMC/NTST.RehabConnect.Windows/Netsmart.RehabConnect.application)

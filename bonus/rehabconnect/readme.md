@@ -1,4 +1,5 @@
 [![Watch the video](https://github.com/virtualizebrief/collection/blob/main/bonus/rehabconnect/vb-rehabconnect-customlauncher-thumbnail.png?raw=true)](https://woodcloud.one/files/vb-rehabconnect-customlauncher.mp4)
+Click to watch video on how to setup.
 
 # RehabConnect custom launcher
 > [!TIP]

@@ -1,4 +1,4 @@
-https://woodcloud.one/files/vb-rehabconnect-customlauncher.mp4
+[![Watch the video](https://github.com/virtualizebrief/collection/blob/main/bonus/rehabconnect/vb-rehabconnect-customlauncher-thumbnail.png?raw=true)](https://woodcloud.one/files/vb-rehabconnect-customlauncher.mp4)
 
 # RehabConnect custom launcher
 > [!TIP]

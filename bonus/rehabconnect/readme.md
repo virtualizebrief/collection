@@ -1,3 +1,5 @@
+https://woodcloud.one/files/vb-rehabconnect-customlauncher.mp4
+
 # RehabConnect custom launcher
 > [!TIP]
 > Designed for use with Citrix Virtual Apps & Desktops. Though can work for other delivery methods: create a shortcut off the .bat file and launch from anywhere.

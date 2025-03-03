@@ -36,9 +36,9 @@ $date = Get-Date -format "yyyyMMdd"
 foreach ($vmName in $vmNames) {
 
     # Source vCenter things
-    $noShow = Connect-VIServer -Server $sourceVC -User $vUser -Password $vPasswordPlain -ErrorAction Stop   
-    $vm     = Get-VM -Name $vmName
-    # $noShow        = Disconnect-VIServer -Server * -Force -Confirm:$false
+    $noShow   = Connect-VIServer -Server $sourceVC -User $vUser -Password $vPasswordPlain -ErrorAction Stop   
+    $vm       = Get-VM -Name $vmName
+    # $noShow = Disconnect-VIServer -Server * -Force -Confirm:$false
    
     # Destination vCenter things
     $noShow         = Connect-VIServer -Server $destVC -User $vUser -Password $vPasswordPlain -ErrorAction Stop

@@ -5,6 +5,7 @@ Quick way to shrink transaction logs on MS SQL Server.
 - Checks if backup file exist, if yes delete
 - Performs transaction log backup
 - Performs a shrink transaction log bucket size
+- Run twice for good measure
 
 #>
 

@@ -1,3 +1,13 @@
+<#
+
+Date: 2025.03.07
+Author: Michael Wood
+
+# Get Citrix Director / Monitor Session Failures
+Deduplicates entries by username (which Director does not)
+
+#>
+
 # Collect session info
 Clear-Host
 $site = (get-brokersite).name

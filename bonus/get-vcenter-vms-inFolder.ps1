@@ -1,4 +1,4 @@
-# You config | Source & destination vCenter info
+# You config source folder & vcenter(s)
 $sourceFolder  = "MyFolder"
 $sourceVCs = @(
 "myvcenter01.domain.com",

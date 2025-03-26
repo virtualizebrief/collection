@@ -26,13 +26,11 @@ foreach ($machine in $machines) {
         write-host "done!" -ForegroundColor Green    
 
     Write-Progress -Activity "Sleeping" -Status "Starting..." -PercentComplete 0
-
     for ($i = 0; $i -lt $sleepTime; $i += 1) {
         Start-Sleep -Seconds $resolution
         $percentComplete = ($i / $sleepTime) * 100
         Write-Progress -Activity "Sleeping" -Status "Sleeping... ($i seconds / $sleepTime seconds)" -PercentComplete $percentComplete
     }
-
     Write-Progress -Activity "Sleeping" -Status "Complete." -PercentComplete 100 -Completed
 
 }

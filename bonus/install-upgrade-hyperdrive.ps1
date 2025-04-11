@@ -31,7 +31,7 @@ if (Test-Path $executablePath -PathType Leaf) {
     Write-Host "You must install Satellite manually. Good-bye."
     pause
     exit
-}
+    }
 
 }
 

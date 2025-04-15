@@ -1,6 +1,7 @@
 $db1 = 'machine01'
 $db2 = 'machine02'
 
+Install-Module dbatools
 Set-DbatoolsInsecureConnection
 $primaryReplica    = Get-DbaAgReplica -SqlInstance $db1 | where-object {$_.role -eq 'primary'}
 $secondaryReplica = Get-DbaAgReplica -SqlInstance $db2 | where-object {$_.role -eq 'secondary'} 

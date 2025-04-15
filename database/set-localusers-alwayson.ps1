@@ -1,17 +1,21 @@
 $db1 = 'machine01'
 $db2 = 'machine02'
 
-$primaryReplica =    Get-DbaAgReplica -ComputerName $db1
-$secondaryReplicas = Get-DbaAgReplica -ComputerName $db2
+Set-DbatoolsInsecureConnection
+$primaryReplica    = Get-DbaAgReplica -SqlInstance $db1 | where-object {$_.role -eq 'primary'}
+$secondaryReplica = Get-DbaAgReplica -SqlInstance $db2 | where-object {$_.role -eq 'secondary'} 
+$LoginsOnPrimarys   = (Get-DbaLogin -SqlInstance $db1).name
+$LoginsOnSecondarys = (Get-DbaLogin -SqlInstance $db2).name
      
-$LoginsOnPrimary = (Get-DbaLogin -SqlInstance $db1.Name)
-     
-$secondaryReplicas | ForEach-Object {
-        
-    $LoginsOnSecondary = (Get-DbaLogin -SqlInstance $_.Name)
-     
-    $diff = $LoginsOnPrimary | Where-Object Name -notin ($LoginsOnSecondary.Name)
-    if($diff) {
-        Copy-DbaLogin -Source $primaryReplica.Name -Destination $_.Name -Login $diff.Nane
+foreach ($LoginsOnPrimary in $LoginsOnPrimarys) {
+
+    $found = (compare-object $LoginsOnPrimary $LoginsOnSecondarys -IncludeEqual | where-object {$_.SideIndicator -eq '=='}).InputObject
+    if ($found -eq $null) {
+
+        write-host "$LoginsOnPrimary being added to $secondaryReplica" -ForegroundColor yellow -NoNewline
+        Copy-DbaLogin -Source $primaryReplica -Destination $secondaryReplica -Login $LoginsOnPrimary -force
+        write-host " done!" -ForegroundColor green
+    
     }   
+
 } 

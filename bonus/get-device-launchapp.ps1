@@ -59,7 +59,6 @@ $data           = (get-wmiobject -Class win32_pnpentity)
 $deviceIPA5     = ($data -match 'VID_11CA&PID_0300')
 $deviceIPA4     = ($data -match 'VID_0ACD&PID_26') -or ($data -match 'VID_0B00&PID_0060') -or ($data -match 'VID_0B00&PID_0072')
 
-# IPA5 | Verifone P200
 If ($deviceIPA5)
   {
 
@@ -67,8 +66,6 @@ If ($deviceIPA5)
     Add-Content -Path $LogFile -Value "$GetDate - IPA5 | Verifone P200"
   
   }
-
-# IPA4 | Ingenico IPP350 / Com Port & HID USB or IDTech SREDKey
 ElseIf ($deviceIPA4)
   {
 
@@ -76,8 +73,6 @@ ElseIf ($deviceIPA4)
     Add-Content -Path $LogFile -Value "$GetDate - IPA4 | Ingenico IPP350 / Com Port & HID USB or IDTech SREDKey"
   
   }
-
-# No credit card reader
 Else
 {
 

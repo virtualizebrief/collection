@@ -40,6 +40,16 @@ function ipa4 {
 
 }
 
+function nodevice {
+
+    Write-Host "No Credit Card Reader Found!" -ForegroundColor Red
+    Stop-Process -Name TCIPA.AppManager
+    Stop-Process -Name TCIPA.DAL
+    Stop-Process -Name TCIPAAppManager
+    Stop-Process -Name TCIPADAL
+
+}
+
 Clear-Host
 Write-Host      "Checking for Credit Card Reader..." -ForegroundColor Yellow
 $GetDate        = Get-Date -format "yyyyMMddThhmm"
@@ -54,7 +64,7 @@ If ($deviceVerifone)
   {
 
     ipa5
-    Add-Content -Path $LogFile -Value "$GetDate - Verifone Found!"
+    Add-Content -Path $LogFile -Value "$GetDate - IPA5 | Verifone P200"
   
   }
 
@@ -63,7 +73,7 @@ ElseIf ($deviceIPA4)
   {
 
     ipa4
-    Add-Content -Path $LogFile -Value "$GetDate - IDTech SREDKey Found!"
+    Add-Content -Path $LogFile -Value "$GetDate - IPA4 | Ingenico IPP350 / Com Port & HID USB or IDTech SREDKey"
   
   }
 
@@ -71,9 +81,7 @@ ElseIf ($deviceIPA4)
 Else
 {
 
-    Write-Host "No Credit Card Reader Found!" -ForegroundColor Red
-    Stop-Process -Name TCIPAAppManager
-    Stop-Process -Name TCIPADAL
+    nodevice
     Add-Content -Path $LogFile -Value "$GetDate - No Credit Card Reader Found!"
 
 }

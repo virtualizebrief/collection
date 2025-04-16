@@ -60,7 +60,7 @@ $deviceIPA5     = ($data -match 'VID_11CA&PID_0300')
 $deviceIPA4     = ($data -match 'VID_0ACD&PID_26') -or ($data -match 'VID_0B00&PID_0060') -or ($data -match 'VID_0B00&PID_0072')
 
 # IPA5 | Verifone P200
-If ($deviceVerifone)
+If ($deviceIPA5)
   {
 
     ipa5

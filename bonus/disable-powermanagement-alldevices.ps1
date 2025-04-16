@@ -13,7 +13,7 @@ $UsbDevices = Get-CimInstance -ClassName Win32_PnPEntity -Filter 'PNPClass = "US
 $powerMgmts | ForEach-Object {
     # Get the power management instance for this device, if there is one
     $powerMgmt | Where-Object InstanceName -Like "*$($_.PNPDeviceID)*"
-} | Set-CimInstance -Property @{Enable = $true}
+} | Set-CimInstance -Property @{Enable = $false}
 
 # Results
 Get-CimInstance -ClassName MSPower_DeviceEnable -Namespace root/WMI

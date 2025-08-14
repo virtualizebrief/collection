@@ -7,6 +7,9 @@ that are connected (which a sessions should only be
 in this state for a minute or two or its busted)and
 time in state is greater than 10 minutes.
 
+first gets results, then stops to ask if you'd like
+to reset the results.
+
 #>
 
 clear-host

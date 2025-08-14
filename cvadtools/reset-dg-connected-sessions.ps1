@@ -1,7 +1,18 @@
+<#
+
+author: Michael Wood
+date: 2025.08.14
+about: clears Citrix Session from a delivery group
+that are connected (which a sessions should only be
+in this state for a minute or two or its busted)and
+time in state is greater than 10 minutes.
+
+#>
+
 clear-host
 
 # delivery group
-$dg = "LCMC Desktop"
+$dg = "DG-Name"
 $time = "10"
 $sessionState = "Connected"
 

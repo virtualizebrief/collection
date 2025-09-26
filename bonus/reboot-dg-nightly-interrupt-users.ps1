@@ -6,10 +6,11 @@ Power off & power on machines in delivery group
 2. Send message to end user sessions
 3. Get list of vdas
 4. Put in maintenance
-5. Power off & wait
-6. Power on & wait
-7. Take out of maintenance
-8. After taking action et current last reboot for each machine 
+5. Send user message & logoff sessions
+6. Power off & wait
+7. Power on & wait
+8. Take out of maintenance
+9. After taking action et current last reboot for each machine 
 
 #>
 

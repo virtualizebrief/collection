@@ -14,7 +14,7 @@ Power off & power on machines in delivery group
 #>
 
 #-Your input please
-$dg = "my-dg" # edit this to put in your delivery group
+$dg = "YOUR-DELIVERYGROUP" # for you to edit
 
 #-Create log path if not existing
 $logPath = "C:\Support\Reports"
@@ -34,8 +34,13 @@ Start-Sleep -s 60
 
 #-Set message of logoff to sessions
 Foreach ($vda in $vdas) {
-    Get-BrokerSession -MachineName $vda | Send-BrokerSessionMessage -Title "StoreFront Maintenance" -MessageStyle Critical -Text "In 1 minutes your application will logoff. This maintenance will last approximately 10 minutes."}
+    Get-BrokerSession -MachineName $vda | Send-BrokerSessionMessage -Title "StoreFront Maintenance" -MessageStyle Critical -Text "In 1 minutes your application will logoff. This maintenance will last approximately 15 minutes."}
 Start-Sleep -s 60
+
+#-Logoff user sessions
+Foreach ($vda in $vdas) {
+    Get-BrokerSession -MachineName $vda | Stop-BrokerSession}
+Start-Sleep -s 180
 
 #-Power off vdas
 Foreach ($vda in $vdas) {
@@ -46,9 +51,9 @@ Start-Sleep -s 60
 #-Power on vdas
 Foreach ($vda in $vdas) {
     New-BrokerHostingPowerAction -Action TurnOn -MachineName $vda
-    Start-Sleep -s 10
+    Start-Sleep -s 10 # reset a little between power on per vda
 }
-Start-Sleep -S 500
+Start-Sleep -S 600
 
 #-Turn off maintenance
 Foreach ($vda in $vdas) {

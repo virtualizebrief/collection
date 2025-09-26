@@ -45,21 +45,18 @@ Start-Sleep -s 180
 
 #-Power off vdas
 Foreach ($vda in $vdas) {
-    New-BrokerHostingPowerAction -Action TurnOff -MachineName $vda
-}
+    New-BrokerHostingPowerAction -Action TurnOff -MachineName $vda}
 Start-Sleep -s 60
 
 #-Power on vdas
 Foreach ($vda in $vdas) {
     New-BrokerHostingPowerAction -Action TurnOn -MachineName $vda
-    Start-Sleep -s 10 # reset a little between power on per vda
-}
+    Start-Sleep -s 10 # reset a little between power on per vda}
 Start-Sleep -S 600
 
 #-Turn off maintenance
 Foreach ($vda in $vdas) {
-    Set-BrokerMachineMaintenanceMode -InputObject $vda $false
-}
+    Set-BrokerMachineMaintenanceMode -InputObject $vda $false}
 Start-Sleep -S 60
 
 #-Report of current start times of machines *after taking action*

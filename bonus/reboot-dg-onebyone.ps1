@@ -5,7 +5,7 @@
 
 # Foreach machine
 - Maintenance on  | wait
-- Sessions logof  | wait
+- Sessions logoff  | wait
 - Power off       | wait
 - Power on        | wait
 - Maintenance off | wait

@@ -10,7 +10,7 @@ write-host "$time Locked? $locked"
 
 if ($locked -eq 'True'){
 
-    unlock-adaccount -identity michael.wood
+    unlock-adaccount -identity $user
     write-host "$time Locked? Fixed!" -foregroundcolor green
 
     }

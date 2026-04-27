@@ -1,0 +1,35 @@
+.theme-highlight-background-color.logon-header-bar {
+    background-color: #005558 !important;
+}
+
+.branding-left-pane {
+    background-color: #f4f4f4 !important;
+}
+
+.button.default {
+    background-color: #005b94 !important;
+    color: #eeeeee !important;
+    transition: background-color 0.2s;
+}
+
+.button.default:hover {
+    background-color: #004976 !important;
+    color: #ffffff !important;
+}
+
+
+.button {
+    border-radius: 5px !important;
+}
+
+.credentialform .plain {
+    font-weight: 100 !important;
+}
+
+.credentialform h1 {
+    color: #ffffff !important;
+}
+
+.web-screen .main-text {
+    font-weight: 100 !important;
+}

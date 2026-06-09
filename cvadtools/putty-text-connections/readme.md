@@ -1,8 +1,8 @@
-![image](https://github.com/virtualizebrief/collection/blob/main/cvadtools/putty-text-connections/putty-text-connections01.png)
-
 # Putty Text Connections
 
 Place to put together a front end for ease of use of ssh text connections. This is especially helpful for end users who have no idea what Putty, SSH, terminal are.
+
+![image](https://github.com/virtualizebrief/collection/blob/main/cvadtools/putty-text-connections/putty-text-connections01.png)
 
 # Citrix application publishing
 

@@ -5,7 +5,7 @@ Especially useful for publishing Citrix applications. This would be a per connec
 # Citrix application publishing
 
 - Path to executable: `C:\Windows\System32\conhost.exe`
-- Command line argument: `--headless powershell.exe -file \\server\share\myapp\start-single.ps1`
+- Command line argument: `--headless powershell.exe -file \\server\path\putty-text-connections\start-single.ps1`
 - Working director: {empty}
 
 # Setup custom registry settings

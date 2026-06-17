@@ -16,7 +16,7 @@ Place to put together a front end for ease of use of ssh text connections. This 
 
 In Putty make all the connections you'd like. Make sure to accept the cert warnings (so users don't have to). Then export the following registry key as the file name custom-settings.reg:
 
-- HKEY_CURRENT_USER\Software\SimonTatham\PuTTY
+- `HKEY_CURRENT_USER\Software\SimonTatham\PuTTY`
 
 # Menu system
 

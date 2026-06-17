@@ -7,7 +7,7 @@ Provide a menu with ssh connections. Multiple can be launched and manage from a 
 # Citrix application publishing
 
 - Path to executable: `C:\Windows\System32\conhost.exe`
-- Command line argument: `--headless powershell.exe -file \\server\share\myapp\production.ps1`
+- Command line argument: `--headless powershell.exe -file \\server\share\myapp\start-menu.ps1`
 - Working director: {empty}
 
 # Setup custom registry settings

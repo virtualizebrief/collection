@@ -6,8 +6,8 @@ Place to put together a front end for ease of use of ssh text connections. This 
 
 # Citrix application publishing
 
-- Path to executable: C:\Windows\System32\conhost.exe
-- Command line argument: --headless powershell.exe -file \\\server\share\myapp\production.ps1
+- Path to executable: `C:\Windows\System32\conhost.exe`
+- Command line argument: `--headless powershell.exe -file \\server\share\myapp\production.ps1`
 - Working director: {empty}
 
 # Setup custom registry settings

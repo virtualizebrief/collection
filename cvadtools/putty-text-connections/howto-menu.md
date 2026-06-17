@@ -1,4 +1,4 @@
-# Putty Text Connections
+# Menu for Putty Text Connections
 
 Place to put together a front end for ease of use of ssh text connections. This is especially helpful for end users who have no idea what Putty, SSH, terminal are.
 

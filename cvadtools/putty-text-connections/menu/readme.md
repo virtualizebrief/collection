@@ -2,7 +2,7 @@
 
 Provide a menu with ssh connections. Multiple can be launched and manage from a single pain of glass.
 
-![image](https://github.com/virtualizebrief/collection/blob/main/cvadtools/putty-text-connections/putty-text-connections01.png)
+![image](https://github.com/virtualizebrief/collection/blob/main/cvadtools/putty-text-connections/menu/putty-text-connections01.png)
 
 ## Citrix application publishing
 

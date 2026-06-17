@@ -1,6 +1,6 @@
 # Menu for Putty Text Connections
 
-Place to put together a front end for ease of use of ssh text connections. This is especially helpful for end users who have no idea what Putty, SSH, terminal are.
+Provide a menu with ssh connections. Multiple can be launched and manage from a single pain of glass.
 
 ![image](https://github.com/virtualizebrief/collection/blob/main/cvadtools/putty-text-connections/putty-text-connections01.png)
 

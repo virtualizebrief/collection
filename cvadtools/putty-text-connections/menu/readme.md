@@ -18,7 +18,7 @@ In Putty make all the connections you'd like. Make sure to accept the cert warni
 
 - `HKEY_CURRENT_USER\Software\SimonTatham\PuTTY`
 
-# Menu system
+# Menu system: start-menu.ps1
 
 Customize the menu to your liking maching each ssh connection with a nice name and explanation.
 

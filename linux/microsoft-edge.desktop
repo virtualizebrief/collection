@@ -1,0 +1,8 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Terminal=false
+Type=Application
+Name=Edge
+MimeType=x-scheme-handler/web+msteams;x-scheme-handler/microsoft-edge;
+Exec=/opt/microsoft/msedge/microsoft-edge %U

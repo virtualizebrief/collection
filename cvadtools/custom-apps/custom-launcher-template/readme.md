@@ -7,7 +7,7 @@
 Start-Process "C:\Support\App\Runme.exe" -wait
 
 # End me
-start-process "C:\Windows\System32\tsdiscon.exe"
+tsdiscon
 start-sleep -s 5
 logoff
 start-sleep -s 5

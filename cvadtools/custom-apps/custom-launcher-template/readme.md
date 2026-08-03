@@ -1,4 +1,4 @@
-# How to create Citrix app launch with custom settings
+# Citrix app launch with custom settings
 
 ## Create powershell file
 

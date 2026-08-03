@@ -15,6 +15,6 @@ Stop-Process -Id $Pid -Force
 ```
 
 ## Create Citrix app
-- Path to executable file: C:\Windows\System32\conhost.exe
-- Command line argument: --headless powershell.exe -file \\\server\folder\myapp.ps1
+- Path to executable file: `C:\Windows\System32\conhost.exe`
+- Command line argument: `--headless powershell.exe -file \\server\folder\myapp.ps1`
 

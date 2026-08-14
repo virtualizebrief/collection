@@ -5,6 +5,6 @@ foreach ($printer in $printers) {
   $map = "\\$ps\$printer"
   try {add-printer -connectionname $map
     write-host "Added: $map" -foregroundcolor green}
-  catch {write-warning "Failed: $map}
+  catch {write-warning "Failed: $map"}
 }
 pause

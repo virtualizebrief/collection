@@ -1,4 +1,4 @@
-$ps = ""
+$ps = "YOUR-PRINTSERVER.DOMAIN.COM"
 $printers = (get-smbshare -cimsession $ps | where-object {$_.sharetype -eq "printqueue"}).name
 
 foreach ($printer in $printers) {

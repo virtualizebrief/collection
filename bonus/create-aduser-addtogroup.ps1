@@ -1,5 +1,6 @@
 $users = @(
-"newuser01" 
+"newuser01"
+"newuser02"
 )
 $adgroups = @(
 "group01"

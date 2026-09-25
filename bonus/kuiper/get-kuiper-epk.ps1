@@ -9,7 +9,7 @@ function get-current-hyperdrive {
 
 }
 
-$folder = "\\lcmchealth.org\epic\EpicShare\Kuiper\tools\epk-files"
+$folder = "\\server\epic\kuiper\tools\epk-files"
 $machine = hostname
 $domain = (Get-CimInstance -ClassName Win32_ComputerSystem).Domain
 get-current-hyperdrive
